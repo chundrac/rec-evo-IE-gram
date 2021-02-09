@@ -1,0 +1,175 @@
+Noun, Present progressive: No marking	A7
+Noun, Present progressive: Nominative-accusative	A6
+Noun, Present progressive: Tripartite	A5
+Noun, Simple past: Ergative	A10
+Noun, Simple past: No marking	A11
+Noun, Simple past: Nominative-accusative	A9
+Noun, Simple past: Tripartite	A8
+Present-Past: A marking in Present Progressive and Past	A2
+Present-Past: Active-ergative in Present Progressive and Past	A3
+Present-Past: All systems	A4
+Present-Past: No marking difference	A1
+Pronoun, Present progressive: No marking	A14
+Pronoun, Present progressive: Nominative-accusative	A13
+Pronoun, Simple past: Ergative	A18
+Pronoun, Simple past: No marking	A19
+Pronoun, Simple past: Nominative-accusative	A16
+Pronoun, Simple past: Tripartite	A15
+Reflexive not with Agent	A20
+Reflexive not with Object	A22
+Reflexive with Agent	A21
+Reflexive with Object	A23
+Verb, Present progressive: No marking	A26
+Verb, Present progressive: Nominative-Accusative	A25
+Verb, Present progressive: Tripartite	A24
+Verb, Simple past: Ergative	A29
+Verb, Simple past: No marking	A30
+Verb, Simple past: Nominative-accusative	A28
+Verb, Simple past: Tripartite	A27
+Agglutination for case	NM33
+Agglutination for case (pronouns)	NM51
+Agglutination for number	NM31
+Agglutination for number (pronouns)	NM50
+Agreement on prepositions	NM46
+Case difference A and O	NM40
+Case on adjective	NM2
+Case on article	NM4
+Case on last member of NP	NM6
+Case on noun	NM8
+Dative but no genitive	NM37
+Definite article	NM15
+Definite suffix on adjective	NM10
+Definite suffix on noun	NM17
+Difference A and O (pronouns)	NM54
+Difference, O and Dative (pronouns)	NM56
+Gender on predicative adjective	NM27
+Genitive and dative	NM38
+Genitive but no dative	NM35
+Fewer than 7 pronominal cases (pronouns)	NM47
+Fewer than five genders	NM18
+Masculine/feminine distinction	NM23
+More than 7 cases	NM29
+More than 7 pronominal cases (pronouns)	NM48
+More than five genders	NM19
+Neuter gender	NM25
+No agglutination for case	NM32
+No agglutination for case (pronouns)	NM52
+No agglutination for number	NM30
+No agglutination for number (pronouns)	NM49
+No agreement on prepositions	NM45
+No case difference A and O	NM39
+No case on adjective	NM1
+No case on article	NM3
+No case on noun	NM7
+No definite article	NM14
+No definite suffix on adjective	NM9
+No definite suffix on noun	NM16
+No difference A and O (pronouns)	NM53
+No difference O and Dative (pronouns)	NM55
+No gender on predicative adjective	NM26
+No genitive or dative	NM34
+No masculine/feminine distinction	NM22
+No neuter gender	NM24
+No noun class for animates	NM20
+No obligatory definiteness	NM11
+No peripheral cases	NM41
+No peripheral cases (pronouns)	NM57
+No rule of case on last/first member of NP	NM5
+No Vocative	NM43
+No Vocative (pronouns)	NM59
+Not more than 7 cases	NM28
+Noun class for animates	NM21
+Obligatory definiteness on first member of NP	NM13
+Obligatory definiteness on last member of NP	NM12
+Peripheral cases	NM42
+Peripheral cases (pronouns)	NM58
+Vocative	NM44
+Vocative (pronouns)	NM60
+Future by auxiliary	T6
+Future by participle	T8
+Future by particle	T10
+Future by perfect	T14
+No Future by auxiliary	T5
+No Future by participle	T7
+No Future by particle	T9
+No Future by perfect	T13
+No Present progressive by auxiliary	T3
+No synthetic Future	T11
+No synthetic Present progressive	T1
+Present progressive by auxiliary	T4
+Synthetic Future	T12
+Synthetic Present progressive	T2
+Present progressive: Full A Agreement	VM4
+Present progressive: Full and Gender A Agreement	VM5
+Present progressive: Full Dative Agreement	VM8
+Present progressive: Full O Agreement	VM10
+Present progressive: Gender A Agreement	VM3
+Present progressive: No A Agreement	VM2
+Present progressive: No Dative Agreement	VM7
+Present progressive: No O Agreement	VM11
+Present progressive: Syncretic A Agreement	VM1
+Present progressive: Syncretic Dative Agreement	VM6
+Present progressive: Syncretic O Agreement	VM9
+Simple past: Full A Agreement	VM16
+Simple past: Full and Gender A Agreement	VM16
+Simple past: Full Dative Agreement	VM21
+Simple past: Gender A Agreement	VM13
+Simple past: Gender and full O Agreement	VM24
+Simple past: Gender Dative Agreement	VM20
+Simple past: Gender O Agreement	VM23
+Simple past: No A Agreement	VM13
+Simple past: No Dative Agreement	VM18
+Simple past: No O Agreement	VM25
+Simple past: Syncretic A Agreement	VM12
+Simple past: Syncretic Dative Agreement	VM18
+Simple past: Syncretic O Agreement	VM22
+Adjective - Noun	WO33
+Adjective - Noun and Noun - Adjective	WO34
+Clitic finite V: Category irrelevant	WO5
+Clitic finite V: OV	WO6
+Clitic finite V: V2	WO8
+Clitic finite V: VO	WO5
+Clitic finite V: VO and OV	WO7
+Clitic Infinitive V: Category irrelevant	WO10
+Clitic Infinitive V: OV	WO12
+Clitic Infinitive V: V2	WO14
+Clitic Infinitive V: VO	WO11
+Clitic Infinitive V: VO and OV	WO13
+Clitic Participle V: Category irrelevant	WO15
+Clitic Participle V: OV	WO17
+Clitic Participle V: V2	WO19
+Clitic Participle V: VO	WO16
+Clitic Participle V: VO and OV	WO18
+Infinitive: Category irrelevant	WO20
+Infinitive: OV	WO22
+Infinitive: OV and VO	WO23
+Infinitive: VO	WO21
+Main clause: SOV	WO27
+Main clause: SOV/SVO	WO28
+Main clause: SVO	WO26
+Main clause: V2	WO25
+Main clause: VSO	WO24
+No Postpositions	WO1
+No Prepositions	WO3
+No WH - Verb (initial or not)	WO47
+No WH-initial (no inversion)	WO49
+Noun - Adjective	WO32
+Noun - Possessor	WO30
+NRel: Category irrelevant	WO35
+NRel: Noun - Relative	WO37
+NRel: Relative - Noun	WO36
+NRel: Relative - Noun and Noun - Relative	WO38
+O - Participle	WO40
+Participle - O	WO39
+Participle - O and O - Participle	WO41
+Possessor - Noun	WO29
+Noun - Adjective	WO31
+Postpositions	WO2
+Prepositions	WO4
+Subordinate clause: SOV	WO45
+Subordinate clause: SOV and SVO	WO46
+Subordinate clause: SVO	WO44
+Subordinate clause: V2	WO43
+Subordinate clause: VSO	WO42
+WH - Verb (initial or not)	WO48
+WH-initial (no inversion)	WO5

@@ -1,0 +1,399 @@
+V1	V2	V3
+Present-Past: A marking in Present Progressive and Past	Present-Past: Active-ergative in Present Progressive and Past	0.0905094733565237
+Present-Past: A marking in Present Progressive and Past	Present-Past: All systems	0.237226208314503
+Present-Past: A marking in Present Progressive and Past	Present-Past: No marking difference	0.0579742760038631
+Present-Past: Active-ergative in Present Progressive and Past	Present-Past: A marking in Present Progressive and Past	0.563090640495144
+Present-Past: Active-ergative in Present Progressive and Past	Present-Past: All systems	0.609646121459772
+Present-Past: Active-ergative in Present Progressive and Past	Present-Past: No marking difference	0.330694450131651
+Present-Past: All systems	Present-Past: A marking in Present Progressive and Past	1.66319896973938
+Present-Past: All systems	Present-Past: Active-ergative in Present Progressive and Past	0.906607473438609
+Present-Past: All systems	Present-Past: No marking difference	0.462325707519956
+Present-Past: No marking difference	Present-Past: A marking in Present Progressive and Past	1.55216586909476
+Present-Past: No marking difference	Present-Past: Active-ergative in Present Progressive and Past	1.56930776577019
+Present-Past: No marking difference	Present-Past: All systems	1.52637884476245
+Noun, Present progressive: No marking	Noun, Present progressive: Nominative-accusative	1.0443893062168
+Noun, Present progressive: No marking	Noun, Present progressive: Tripartite	0.175437551207059
+Noun, Present progressive: Nominative-accusative	Noun, Present progressive: No marking	0.593222587351658
+Noun, Present progressive: Nominative-accusative	Noun, Present progressive: Tripartite	0.082364316098865
+Noun, Present progressive: Tripartite	Noun, Present progressive: No marking	1.56344822812987
+Noun, Present progressive: Tripartite	Noun, Present progressive: Nominative-accusative	1.81968967729979
+Noun, Simple past: Ergative	Noun, Simple past: No marking	0.365422823319396
+Noun, Simple past: Ergative	Noun, Simple past: Nominative-accusative	0.533627819358536
+Noun, Simple past: Ergative	Noun, Simple past: Tripartite	0.310394070853373
+Noun, Simple past: No marking	Noun, Simple past: Ergative	0.282699115507459
+Noun, Simple past: No marking	Noun, Simple past: Nominative-accusative	1.10585452367959
+Noun, Simple past: No marking	Noun, Simple past: Tripartite	0.194116950618099
+Noun, Simple past: Nominative-accusative	Noun, Simple past: Ergative	0.113409274526189
+Noun, Simple past: Nominative-accusative	Noun, Simple past: No marking	0.751736825816133
+Noun, Simple past: Nominative-accusative	Noun, Simple past: Tripartite	0.0957283699092393
+Noun, Simple past: Tripartite	Noun, Simple past: Ergative	1.45584929081316
+Noun, Simple past: Tripartite	Noun, Simple past: No marking	1.33652696650268
+Noun, Simple past: Tripartite	Noun, Simple past: Nominative-accusative	1.62929417342374
+Pronoun, Present progressive: No marking	Pronoun, Present progressive: Nominative-accusative	0.807377690034766
+Pronoun, Present progressive: Nominative-accusative	Pronoun, Present progressive: No marking	0.118178370806153
+Pronoun, Simple past: Ergative	Pronoun, Simple past: No marking	0.301192061477482
+Pronoun, Simple past: Ergative	Pronoun, Simple past: Nominative-accusative	0.326335742696363
+Pronoun, Simple past: Ergative	Pronoun, Simple past: Tripartite	0.31115507618864
+Pronoun, Simple past: No marking	Pronoun, Simple past: Ergative	0.828713992162178
+Pronoun, Simple past: No marking	Pronoun, Simple past: Nominative-accusative	0.641901816003415
+Pronoun, Simple past: No marking	Pronoun, Simple past: Tripartite	0.502790345022409
+Pronoun, Simple past: Nominative-accusative	Pronoun, Simple past: Ergative	0.061059793236346
+Pronoun, Simple past: Nominative-accusative	Pronoun, Simple past: No marking	0.140849747029984
+Pronoun, Simple past: Nominative-accusative	Pronoun, Simple past: Tripartite	0.0572325308731246
+Pronoun, Simple past: Tripartite	Pronoun, Simple past: Ergative	1.54738275598801
+Pronoun, Simple past: Tripartite	Pronoun, Simple past: No marking	1.15627194029595
+Pronoun, Simple past: Tripartite	Pronoun, Simple past: Nominative-accusative	1.26121825770213
+Reflexive not with Agent	Reflexive with Agent	0.888062113170285
+Reflexive with Agent	Reflexive not with Agent	0.0420431884457622
+Reflexive not with Object	Reflexive with Object	0.035032956537251
+Reflexive with Object	Reflexive not with Object	0.548471244801944
+Verb, Present progressive: A=O/So=O	Verb, Present progressive: No marking	1.29908174460125
+Verb, Present progressive: A=O/So=O	Verb, Present progressive: Nominative-Accusative	1.54679478207047
+Verb, Present progressive: A=O/So=O	Verb, Present progressive: Tripartite	1.19218082459118
+Verb, Present progressive: No marking	Verb, Present progressive: A=O/So=O	0.587211763402263
+Verb, Present progressive: No marking	Verb, Present progressive: Nominative-Accusative	1.55245997164764
+Verb, Present progressive: No marking	Verb, Present progressive: Tripartite	0.734748011914802
+Verb, Present progressive: Nominative-Accusative	Verb, Present progressive: A=O/So=O	0.0378046146470539
+Verb, Present progressive: Nominative-Accusative	Verb, Present progressive: No marking	0.129264932063595
+Verb, Present progressive: Nominative-Accusative	Verb, Present progressive: Tripartite	0.0449304357126827
+Verb, Present progressive: Tripartite	Verb, Present progressive: A=O/So=O	0.734649988826628
+Verb, Present progressive: Tripartite	Verb, Present progressive: No marking	0.963173200964053
+Verb, Present progressive: Tripartite	Verb, Present progressive: Nominative-Accusative	1.2144510740989
+Verb, Simple past: Double oblique	Verb, Simple past: Ergative	1.4800201244738
+Verb, Simple past: Double oblique	Verb, Simple past: No marking	1.29103570399685
+Verb, Simple past: Double oblique	Verb, Simple past: Nominative-accusative	1.43125786385989
+Verb, Simple past: Double oblique	Verb, Simple past: Tripartite	1.44388247592035
+Verb, Simple past: Ergative	Verb, Simple past: Double oblique	0.374089659024711
+Verb, Simple past: Ergative	Verb, Simple past: No marking	0.463013799602534
+Verb, Simple past: Ergative	Verb, Simple past: Nominative-accusative	0.536225225133292
+Verb, Simple past: Ergative	Verb, Simple past: Tripartite	0.705298935717239
+Verb, Simple past: No marking	Verb, Simple past: Double oblique	0.437711159053784
+Verb, Simple past: No marking	Verb, Simple past: Ergative	0.753720110492272
+Verb, Simple past: No marking	Verb, Simple past: Nominative-accusative	1.4850491744377
+Verb, Simple past: No marking	Verb, Simple past: Tripartite	0.77521969698073
+Verb, Simple past: Nominative-accusative	Verb, Simple past: Double oblique	0.0530347559960545
+Verb, Simple past: Nominative-accusative	Verb, Simple past: Ergative	0.0643914646419496
+Verb, Simple past: Nominative-accusative	Verb, Simple past: No marking	0.371812607256947
+Verb, Simple past: Nominative-accusative	Verb, Simple past: Tripartite	0.0737236623631418
+Verb, Simple past: Tripartite	Verb, Simple past: Double oblique	0.508026041933004
+Verb, Simple past: Tripartite	Verb, Simple past: Ergative	1.00275615551903
+Verb, Simple past: Tripartite	Verb, Simple past: No marking	0.676046126587779
+Verb, Simple past: Tripartite	Verb, Simple past: Nominative-accusative	0.81193733072829
+Case on adjective	No case on adjective	0.562813085914162
+No case on adjective	Case on adjective	0.408175797681097
+Case on article	No case on article	0.722497058511946
+No case on article	Case on article	0.182787260214183
+Case on last member of NP	No rule of case on last/first member of NP	0.258572570283569
+No rule of case on last/first member of NP	Case on last member of NP	0.138186465199398
+Case on noun	No case on noun	0.316590260080779
+No case on noun	Case on noun	0.718503797493856
+Definite suffix on adjective	No definite suffix on adjective	0.27453270795529
+No definite suffix on adjective	Definite suffix on adjective	0.0612160369192534
+No obligatory definiteness	Obligatory definiteness on first member of NP	0.0930229107181999
+No obligatory definiteness	Obligatory definiteness on last member of NP	0.182647296522562
+Obligatory definiteness on first member of NP	No obligatory definiteness	0.185449988525856
+Obligatory definiteness on first member of NP	Obligatory definiteness on last member of NP	0.132973073724513
+Obligatory definiteness on last member of NP	No obligatory definiteness	1.55177700685641
+Obligatory definiteness on last member of NP	Obligatory definiteness on first member of NP	0.639624461323367
+Definite article	No definite article	0.135234266456683
+No definite article	Definite article	0.102550235785331
+Definite suffix on noun	No definite suffix on noun	0.308053071019793
+No definite suffix on noun	Definite suffix on noun	0.124239862704809
+Fewer than five genders	More than five genders	0.0179814711157185
+More than five genders	Fewer than five genders	0.650090748722643
+No noun class for animates	Noun class for animates	0.0705663792529218
+Noun class for animates	No noun class for animates	0.508872196263448
+Masculine/feminine distinction	No masculine/feminine distinction	0.214347966328166
+No masculine/feminine distinction	Masculine/feminine distinction	0.373519392879863
+Neuter gender	No neuter gender	0.361865676983726
+No neuter gender	Neuter gender	0.0945194130781203
+Gender on predicative adjective	No gender on predicative adjective	0.311996792253422
+No gender on predicative adjective	Gender on predicative adjective	0.395130049978007
+More than 7 cases	Not more than 7 cases	0.728759655885699
+Not more than 7 cases	More than 7 cases	0.057250170386371
+Agglutination for number	No agglutination for number	0.353786048695584
+No agglutination for number	Agglutination for number	0.187323138768143
+Agglutination for case	No agglutination for case	0.520472601825494
+No agglutination for case	Agglutination for case	0.218555999882019
+Dative but no genitive	Genitive and dative	1.33218092590107
+Dative but no genitive	Genitive but no dative	1.21819733911695
+Dative but no genitive	No genitive or dative	0.859418774966281
+Genitive and dative	Dative but no genitive	0.165485256656521
+Genitive and dative	Genitive but no dative	0.34626790118076
+Genitive and dative	No genitive or dative	0.161770860904711
+Genitive but no dative	Dative but no genitive	0.579681179392287
+Genitive but no dative	Genitive and dative	0.930436728335515
+Genitive but no dative	No genitive or dative	0.737242136664948
+No genitive or dative	Dative but no genitive	0.164735531967423
+No genitive or dative	Genitive and dative	0.137293402988447
+No genitive or dative	Genitive but no dative	0.238389779580308
+Case difference A and O	No case difference A and O	0.355137515137936
+No case difference A and O	Case difference A and O	0.583574444041469
+No peripheral cases	Peripheral cases	0.0463519630515506
+Peripheral cases	No peripheral cases	0.150229312915487
+No Vocative	Vocative	0.128458481621481
+Vocative	No Vocative	0.253598134024811
+Agreement on prepositions	No agreement on prepositions	0.110412163971496
+No agreement on prepositions	Agreement on prepositions	0.0393870045425494
+Fewer than 7 pronominal cases (pronouns)	More than 7 pronominal cases (pronouns)	0.038953433026903
+More than 7 pronominal cases (pronouns)	Fewer than 7 pronominal cases (pronouns)	0.740821444149544
+Agglutination for number (pronouns)	No agglutination for number (pronouns)	0.324396565974884
+No agglutination for number (pronouns)	Agglutination for number (pronouns)	0.132501071868971
+Agglutination for case (pronouns)	No agglutination for case (pronouns)	0.0585772062282678
+No agglutination for case (pronouns)	Agglutination for case (pronouns)	0.434429914262499
+Difference A and O (pronouns)	No difference A and O (pronouns)	0.0855288600278697
+No difference A and O (pronouns)	Difference A and O (pronouns)	0.39662169928717
+Difference, O and Dative (pronouns)	No difference O and Dative (pronouns)	0.535140632549071
+No difference O and Dative (pronouns)	Difference, O and Dative (pronouns)	0.3811351932727
+No peripheral cases (pronouns)	Peripheral cases (pronouns)	0.0568268033596154
+Peripheral cases (pronouns)	No peripheral cases (pronouns)	0.236820406970677
+No Vocative (pronouns)	Vocative (pronouns)	0.0193062437833142
+Vocative (pronouns)	No Vocative (pronouns)	0.721219359912637
+No synthetic Present progressive	Synthetic Present progressive	0.522875885608922
+Synthetic Present progressive	No synthetic Present progressive	0.0711746942401891
+No Present progressive by auxiliary	Present progressive by auxiliary	0.270672427120288
+Present progressive by auxiliary	No Present progressive by auxiliary	0.440952907555303
+Future by auxiliary	No Future by auxiliary	0.46392907307915
+No Future by auxiliary	Future by auxiliary	0.38328729102705
+Future by participle	No Future by participle	0.653955901422937
+No Future by participle	Future by participle	0.0930604056433293
+Future by particle	No Future by particle	0.581724963269827
+No Future by particle	Future by particle	0.132511031339965
+No synthetic Future	Synthetic Future	0.165566806744744
+Synthetic Future	No synthetic Future	0.206809914531992
+Future by perfect	No Future by perfect	0.360627333105164
+No Future by perfect	Future by perfect	0.0236835846021827
+Present progressive: Full A Agreement	Present progressive: Full and Gender A Agreement	0.077667544364743
+Present progressive: Full A Agreement	Present progressive: Gender A Agreement	0.112192334541256
+Present progressive: Full A Agreement	Present progressive: No A Agreement	0.0974316487035531
+Present progressive: Full A Agreement	Present progressive: Syncretic A Agreement	0.207291506592141
+Present progressive: Full and Gender A Agreement	Present progressive: Full A Agreement	1.54885254678802
+Present progressive: Full and Gender A Agreement	Present progressive: Gender A Agreement	1.26953567017123
+Present progressive: Full and Gender A Agreement	Present progressive: No A Agreement	1.36795591412192
+Present progressive: Full and Gender A Agreement	Present progressive: Syncretic A Agreement	1.59805990030823
+Present progressive: Gender A Agreement	Present progressive: Full A Agreement	1.35022605489985
+Present progressive: Gender A Agreement	Present progressive: Full and Gender A Agreement	0.763487137641822
+Present progressive: Gender A Agreement	Present progressive: No A Agreement	1.09516177250324
+Present progressive: Gender A Agreement	Present progressive: Syncretic A Agreement	1.32202525158868
+Present progressive: No A Agreement	Present progressive: Full A Agreement	1.0472054463517
+Present progressive: No A Agreement	Present progressive: Full and Gender A Agreement	0.586042367077815
+Present progressive: No A Agreement	Present progressive: Gender A Agreement	0.807527046235879
+Present progressive: No A Agreement	Present progressive: Syncretic A Agreement	1.35547994617469
+Present progressive: Syncretic A Agreement	Present progressive: Full A Agreement	0.115364553753722
+Present progressive: Syncretic A Agreement	Present progressive: Full and Gender A Agreement	0.109110584619996
+Present progressive: Syncretic A Agreement	Present progressive: Gender A Agreement	0.147662444029955
+Present progressive: Syncretic A Agreement	Present progressive: No A Agreement	0.352062937938173
+Present progressive: Full Dative Agreement	Present progressive: No Dative Agreement	1.44188947950419
+Present progressive: Full Dative Agreement	Present progressive: Syncretic Dative Agreement	1.32847674336443
+Present progressive: No Dative Agreement	Present progressive: Full Dative Agreement	0.0321197717572687
+Present progressive: No Dative Agreement	Present progressive: Syncretic Dative Agreement	0.0699561615249954
+Present progressive: Syncretic Dative Agreement	Present progressive: Full Dative Agreement	0.457928219703867
+Present progressive: Syncretic Dative Agreement	Present progressive: No Dative Agreement	0.669756646139268
+Present progressive: Full O Agreement	Present progressive: No O Agreement	1.43512925642605
+Present progressive: Full O Agreement	Present progressive: Syncretic O Agreement	1.32975043366032
+Present progressive: No O Agreement	Present progressive: Full O Agreement	0.03203652807701
+Present progressive: No O Agreement	Present progressive: Syncretic O Agreement	0.0694944337117465
+Present progressive: Syncretic O Agreement	Present progressive: Full O Agreement	0.454683986825325
+Present progressive: Syncretic O Agreement	Present progressive: No O Agreement	0.661495132365315
+Simple past: Full A Agreement	Simple past: Full and Gender A Agreement	1.73342716804529
+Simple past: Full A Agreement	Simple past: Gender A Agreement	1.21740357891722
+Simple past: Full A Agreement	Simple past: No A Agreement	1.29947458848285
+Simple past: Full A Agreement	Simple past: Syncretic A Agreement	1.72907713893857
+Simple past: Full and Gender A Agreement	Simple past: Full A Agreement	0.179088918869342
+Simple past: Full and Gender A Agreement	Simple past: Gender A Agreement	0.236285757609391
+Simple past: Full and Gender A Agreement	Simple past: No A Agreement	0.284565599979116
+Simple past: Full and Gender A Agreement	Simple past: Syncretic A Agreement	0.822828288480875
+Simple past: Gender A Agreement	Simple past: Full A Agreement	0.748333523849088
+Simple past: Gender A Agreement	Simple past: Full and Gender A Agreement	1.43261648990138
+Simple past: Gender A Agreement	Simple past: No A Agreement	1.01142742851344
+Simple past: Gender A Agreement	Simple past: Syncretic A Agreement	1.42257602940359
+Simple past: No A Agreement	Simple past: Full A Agreement	0.725338267517473
+Simple past: No A Agreement	Simple past: Full and Gender A Agreement	1.52449815614422
+Simple past: No A Agreement	Simple past: Gender A Agreement	0.923619588396066
+Simple past: No A Agreement	Simple past: Syncretic A Agreement	1.5270878635312
+Simple past: Syncretic A Agreement	Simple past: Full A Agreement	0.265938785187406
+Simple past: Syncretic A Agreement	Simple past: Full and Gender A Agreement	1.1439790983163
+Simple past: Syncretic A Agreement	Simple past: Gender A Agreement	0.364453183172618
+Simple past: Syncretic A Agreement	Simple past: No A Agreement	0.443186753744651
+Simple past: Full Dative Agreement	Simple past: Gender Dative Agreement	1.01613084186547
+Simple past: Full Dative Agreement	Simple past: No Dative Agreement	1.46253033381638
+Simple past: Full Dative Agreement	Simple past: Syncretic Dative Agreement	1.34719962628836
+Simple past: Gender Dative Agreement	Simple past: Full Dative Agreement	1.00501350755369
+Simple past: Gender Dative Agreement	Simple past: No Dative Agreement	1.4909135248783
+Simple past: Gender Dative Agreement	Simple past: Syncretic Dative Agreement	1.3783135957204
+Simple past: No Dative Agreement	Simple past: Full Dative Agreement	0.0337807727497052
+Simple past: No Dative Agreement	Simple past: Gender Dative Agreement	0.0353491281923213
+Simple past: No Dative Agreement	Simple past: Syncretic Dative Agreement	0.0693546011225773
+Simple past: Syncretic Dative Agreement	Simple past: Full Dative Agreement	0.468156672344328
+Simple past: Syncretic Dative Agreement	Simple past: Gender Dative Agreement	0.461061014743792
+Simple past: Syncretic Dative Agreement	Simple past: No Dative Agreement	0.678770745739672
+Simple past: Gender and full O Agreement	Simple past: Gender O Agreement	1.09751486186198
+Simple past: Gender and full O Agreement	Simple past: No O Agreement	1.10902442255763
+Simple past: Gender and full O Agreement	Simple Past: Syncretic and gender A Agreement	1.35083701161389
+Simple past: Gender and full O Agreement	Simple past: Syncretic O Agreement	1.35525084411475
+Simple past: Gender O Agreement	Simple past: Gender and full O Agreement	0.924379161772368
+Simple past: Gender O Agreement	Simple past: No O Agreement	1.00810227784593
+Simple past: Gender O Agreement	Simple Past: Syncretic and gender A Agreement	1.2681232718857
+Simple past: Gender O Agreement	Simple past: Syncretic O Agreement	1.28519348574586
+Simple past: No O Agreement	Simple past: Gender and full O Agreement	0.0525426409280408
+Simple past: No O Agreement	Simple past: Gender O Agreement	0.0562082549514659
+Simple past: No O Agreement	Simple Past: Syncretic and gender A Agreement	0.0730057421819978
+Simple past: No O Agreement	Simple past: Syncretic O Agreement	0.0921574415408937
+Simple Past: Syncretic and gender A Agreement	Simple past: Gender and full O Agreement	0.584050722159986
+Simple Past: Syncretic and gender A Agreement	Simple past: Gender O Agreement	0.653976982317171
+Simple Past: Syncretic and gender A Agreement	Simple past: No O Agreement	0.623922413264934
+Simple Past: Syncretic and gender A Agreement	Simple past: Syncretic O Agreement	0.886515856915583
+Simple past: Syncretic O Agreement	Simple past: Gender and full O Agreement	0.474753606347765
+Simple past: Syncretic O Agreement	Simple past: Gender O Agreement	0.530098658800483
+Simple past: Syncretic O Agreement	Simple past: No O Agreement	0.439442248053013
+Simple past: Syncretic O Agreement	Simple Past: Syncretic and gender A Agreement	0.733077503869123
+No Postpositions	Postpositions	0.0344668331554828
+Postpositions	No Postpositions	0.0851044854723789
+No Prepositions	Prepositions	0.0609598195728189
+Prepositions	No Prepositions	0.0371497773637813
+Clitic finite V: Category irrelevant	Clitic finite V: OV	0.0767424205011403
+Clitic finite V: Category irrelevant	Clitic finite V: V2	0.117568343535961
+Clitic finite V: Category irrelevant	Clitic finite V: VO	0.543021366711954
+Clitic finite V: Category irrelevant	Clitic finite V: VO and OV	0.0978483243574832
+Clitic finite V: OV	Clitic finite V: Category irrelevant	0.376849920404537
+Clitic finite V: OV	Clitic finite V: V2	0.123299398284981
+Clitic finite V: OV	Clitic finite V: VO	0.174722941446771
+Clitic finite V: OV	Clitic finite V: VO and OV	0.130919807991556
+Clitic finite V: V2	Clitic finite V: Category irrelevant	0.762474405317485
+Clitic finite V: V2	Clitic finite V: OV	0.242042376196076
+Clitic finite V: V2	Clitic finite V: VO	0.612026839311765
+Clitic finite V: V2	Clitic finite V: VO and OV	0.431807289662703
+Clitic finite V: VO	Clitic finite V: Category irrelevant	1.18715324766575
+Clitic finite V: VO	Clitic finite V: OV	0.240677673438157
+Clitic finite V: VO	Clitic finite V: V2	0.563547841007054
+Clitic finite V: VO	Clitic finite V: VO and OV	0.364436411447124
+Clitic finite V: VO and OV	Clitic finite V: Category irrelevant	0.833416732140277
+Clitic finite V: VO and OV	Clitic finite V: OV	0.517645109417565
+Clitic finite V: VO and OV	Clitic finite V: V2	0.836703352054369
+Clitic finite V: VO and OV	Clitic finite V: VO	0.778049820141334
+Clitic Infinitive V: Category irrelevant	Clitic Infinitive V: OV	0.0967933074858951
+Clitic Infinitive V: Category irrelevant	Clitic Infinitive V: V2	0.0625701151381275
+Clitic Infinitive V: Category irrelevant	Clitic Infinitive V: VO	0.0979130708712788
+Clitic Infinitive V: Category irrelevant	Clitic Infinitive V: VO and OV	0.0814012271758077
+Clitic Infinitive V: OV	Clitic Infinitive V: Category irrelevant	0.316862749593175
+Clitic Infinitive V: OV	Clitic Infinitive V: V2	0.625862335453216
+Clitic Infinitive V: OV	Clitic Infinitive V: VO	0.668826088992694
+Clitic Infinitive V: OV	Clitic Infinitive V: VO and OV	0.38839161793341
+Clitic Infinitive V: V2	Clitic Infinitive V: Category irrelevant	0.563535994393605
+Clitic Infinitive V: V2	Clitic Infinitive V: OV	0.626816344162196
+Clitic Infinitive V: V2	Clitic Infinitive V: VO	0.412584202158961
+Clitic Infinitive V: V2	Clitic Infinitive V: VO and OV	0.426654934802016
+Clitic Infinitive V: VO	Clitic Infinitive V: Category irrelevant	0.170729100997132
+Clitic Infinitive V: VO	Clitic Infinitive V: OV	0.940852808169841
+Clitic Infinitive V: VO	Clitic Infinitive V: V2	0.345339467712472
+Clitic Infinitive V: VO	Clitic Infinitive V: VO and OV	0.272497849786193
+Clitic Infinitive V: VO and OV	Clitic Infinitive V: Category irrelevant	1.43445643405065
+Clitic Infinitive V: VO and OV	Clitic Infinitive V: OV	1.2635534605502
+Clitic Infinitive V: VO and OV	Clitic Infinitive V: V2	1.19113829088953
+Clitic Infinitive V: VO and OV	Clitic Infinitive V: VO	1.05436770785518
+Clitic Participle V: Category irrelevant	Clitic Participle V: OV	0.139111698296881
+Clitic Participle V: Category irrelevant	Clitic Participle V: V2	0.0909059115104013
+Clitic Participle V: Category irrelevant	Clitic Participle V: VO	0.116434862237209
+Clitic Participle V: Category irrelevant	Clitic Participle V: VO and OV	0.101022213328973
+Clitic Participle V: OV	Clitic Participle V: Category irrelevant	0.494404121820807
+Clitic Participle V: OV	Clitic Participle V: V2	0.433586303101598
+Clitic Participle V: OV	Clitic Participle V: VO	0.595091452382637
+Clitic Participle V: OV	Clitic Participle V: VO and OV	0.36118353411729
+Clitic Participle V: V2	Clitic Participle V: Category irrelevant	0.604427676603274
+Clitic Participle V: V2	Clitic Participle V: OV	0.759109879468672
+Clitic Participle V: V2	Clitic Participle V: VO	0.561065743806037
+Clitic Participle V: V2	Clitic Participle V: VO and OV	0.47569241371424
+Clitic Participle V: VO	Clitic Participle V: Category irrelevant	0.233989291717643
+Clitic Participle V: VO	Clitic Participle V: OV	0.821260566947796
+Clitic Participle V: VO	Clitic Participle V: V2	0.512134802521506
+Clitic Participle V: VO	Clitic Participle V: VO and OV	0.408584837816972
+Clitic Participle V: VO and OV	Clitic Participle V: Category irrelevant	0.864253888588995
+Clitic Participle V: VO and OV	Clitic Participle V: OV	1.31727746457938
+Clitic Participle V: VO and OV	Clitic Participle V: V2	1.11171849788446
+Clitic Participle V: VO and OV	Clitic Participle V: VO	1.68773515067593
+Infinitive: Category irrelevant	Infinitive: OV	0.545400475485038
+Infinitive: Category irrelevant	Infinitive: OV and VO	0.532732059856122
+Infinitive: Category irrelevant	Infinitive: VO	0.577194950392807
+Infinitive: OV	Infinitive: Category irrelevant	0.0383773521865933
+Infinitive: OV	Infinitive: OV and VO	0.0387663565053775
+Infinitive: OV	Infinitive: VO	0.0756688031207973
+Infinitive: OV and VO	Infinitive: Category irrelevant	1.36579414865338
+Infinitive: OV and VO	Infinitive: OV	0.567282599070856
+Infinitive: OV and VO	Infinitive: VO	0.757971969665431
+Infinitive: VO	Infinitive: Category irrelevant	0.106936190157328
+Infinitive: VO	Infinitive: OV	0.0806345200180792
+Infinitive: VO	Infinitive: OV and VO	0.151547825217772
+Main clause: SOV	Main clause: SOV/SVO	0.0477676350674744
+Main clause: SOV	Main clause: SVO	0.043926841946136
+Main clause: SOV	Main clause: V2	0.0350018011603636
+Main clause: SOV	Main clause: VSO	0.0315278636791525
+Main clause: SOV/SVO	Main clause: SOV	1.08263454702785
+Main clause: SOV/SVO	Main clause: SVO	1.54767080284184
+Main clause: SOV/SVO	Main clause: V2	1.3319198273342
+Main clause: SOV/SVO	Main clause: VSO	0.969520184381106
+Main clause: SVO	Main clause: SOV	0.0481876372999845
+Main clause: SVO	Main clause: SOV/SVO	0.0784770213696942
+Main clause: SVO	Main clause: V2	0.19705712764663
+Main clause: SVO	Main clause: VSO	0.0573638640893084
+Main clause: V2	Main clause: SOV	0.0861034035385062
+Main clause: V2	Main clause: SOV/SVO	0.133400108898967
+Main clause: V2	Main clause: SVO	0.423860219398758
+Main clause: V2	Main clause: VSO	0.145260074643222
+Main clause: VSO	Main clause: SOV	0.419120764929951
+Main clause: VSO	Main clause: SOV/SVO	0.451725067777824
+Main clause: VSO	Main clause: SVO	0.540012263947468
+Main clause: VSO	Main clause: V2	0.491822710922721
+Noun - Possessor	Possessor - Noun	0.154768122475149
+Noun - Possessor	Possessor - Noun and Noun - Possessor	0.159038872444281
+Possessor - Noun	Noun - Possessor	0.0880626703295383
+Possessor - Noun	Possessor - Noun and Noun - Possessor	0.0545215861083137
+Possessor - Noun and Noun - Possessor	Noun - Possessor	0.929070199760143
+Possessor - Noun and Noun - Possessor	Possessor - Noun	0.689163435953703
+Adjective - Noun	Adjective - Noun and Noun - Adjective	0.0860601919820762
+Adjective - Noun	Noun - Adjective	0.0248658728403475
+Adjective - Noun and Noun - Adjective	Adjective - Noun	0.775808688363686
+Adjective - Noun and Noun - Adjective	Noun - Adjective	1.03570605446997
+Noun - Adjective	Adjective - Noun	0.0797284879921015
+Noun - Adjective	Adjective - Noun and Noun - Adjective	0.253784685956168
+NRel: Category irrelevant	NRel: Noun - Relative	1.47083477412383
+NRel: Category irrelevant	NRel: Relative - Noun	1.52643826717308
+NRel: Category irrelevant	NRel: Relative - Noun and Noun - Relative	1.04595629067915
+NRel: Noun - Relative	NRel: Category irrelevant	0.046229665900693
+NRel: Noun - Relative	NRel: Relative - Noun	0.0306673182622267
+NRel: Noun - Relative	NRel: Relative - Noun and Noun - Relative	0.0302899613330051
+NRel: Relative - Noun	NRel: Category irrelevant	0.160487155203474
+NRel: Relative - Noun	NRel: Noun - Relative	0.21011420581089
+NRel: Relative - Noun	NRel: Relative - Noun and Noun - Relative	0.22177749691885
+NRel: Relative - Noun and Noun - Relative	NRel: Category irrelevant	0.962556993152412
+NRel: Relative - Noun and Noun - Relative	NRel: Noun - Relative	1.27197974377586
+NRel: Relative - Noun and Noun - Relative	NRel: Relative - Noun	1.5950982258728
+O - Participle	Participle - O	0.0818911449757156
+O - Participle	Participle - O and O - Participle	0.0361624949086669
+Participle - O	O - Participle	0.0919227084908218
+Participle - O	Participle - O and O - Participle	0.066823152517289
+Participle - O and O - Participle	O - Participle	0.392555316823194
+Participle - O and O - Participle	Participle - O	0.334050742893533
+Subordinate clause: SOV	Subordinate clause: SOV and SVO	0.0482194727782983
+Subordinate clause: SOV	Subordinate clause: SVO	0.0599896841330628
+Subordinate clause: SOV	Subordinate clause: V2	0.0549306764448597
+Subordinate clause: SOV	Subordinate clause: VSO	0.0284520296695821
+Subordinate clause: SOV and SVO	Subordinate clause: SOV	1.32210614392245
+Subordinate clause: SOV and SVO	Subordinate clause: SVO	1.39863853242203
+Subordinate clause: SOV and SVO	Subordinate clause: V2	1.05338214771663
+Subordinate clause: SOV and SVO	Subordinate clause: VSO	1.01256019951689
+Subordinate clause: SVO	Subordinate clause: SOV	0.078116652540975
+Subordinate clause: SVO	Subordinate clause: SOV and SVO	0.0640845191639787
+Subordinate clause: SVO	Subordinate clause: V2	0.0532201606216651
+Subordinate clause: SVO	Subordinate clause: VSO	0.0515642884845381
+Subordinate clause: V2	Subordinate clause: SOV	0.311520474153923
+Subordinate clause: V2	Subordinate clause: SOV and SVO	0.407305272443761
+Subordinate clause: V2	Subordinate clause: SVO	0.992735773357171
+Subordinate clause: V2	Subordinate clause: VSO	0.309393705118598
+Subordinate clause: VSO	Subordinate clause: SOV	0.303424185323178
+Subordinate clause: VSO	Subordinate clause: SOV and SVO	0.247428142092449
+Subordinate clause: VSO	Subordinate clause: SVO	0.199927405975588
+Subordinate clause: VSO	Subordinate clause: V2	0.208210548426502
+No WH - Verb (initial or not)	WH - Verb (initial or not)	0.267612064867128
+WH - Verb (initial or not)	No WH - Verb (initial or not)	0.253550369992694
+No WH-initial (no inversion)	WH-initial (no inversion)	0.213351902793368
+WH-initial (no inversion)	No WH-initial (no inversion)	0.219347817379906

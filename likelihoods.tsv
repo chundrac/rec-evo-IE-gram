@@ -1,0 +1,165 @@
+Canonical	Present-Past: No marking difference|Present-Past: A marking in Present Progressive and Past|Present-Past: Active-ergative in Present Progressive and Past|Present-Past: All systems	0.781233333333333
+Canonical	Noun, Present progressive: Tripartite|Noun, Present progressive: Nominative-accusative|Noun, Present progressive: No marking	0.6545
+Canonical	Noun, Simple past: Tripartite|Noun, Simple past: Nominative-accusative|Noun, Simple past: Ergative|Noun, Simple past: No marking	0.537566666666667
+Canonical	Pronoun, Present progressive: Nominative-accusative|Pronoun, Present progressive: No marking	0.907733333333333
+Canonical	Pronoun, Simple past: Tripartite|Pronoun, Simple past: Nominative-accusative|Pronoun, Simple past: Ergative|Pronoun, Simple past: No marking	0.8307
+Canonical	Reflexive not with Agent|Reflexive with Agent	0.9592
+Canonical	Reflexive not with Object|Reflexive with Object	0.9578
+Canonical	Verb, Present progressive: Tripartite|Verb, Present progressive: Nominative-Accusative|Verb, Present progressive: No marking	0.8739
+Canonical	Verb, Simple past: Tripartite|Verb, Simple past: Nominative-accusative|Verb, Simple past: Ergative|Verb, Simple past: No marking	0.6749
+Canonical	No case on adjective|Case on adjective	0.559133333333333
+Canonical	No case on article|Case on article	0.732966666666667
+Canonical	No rule of case on last/first member of NP|Case on last member of NP	0.924333333333333
+Canonical	No case on noun|Case on noun	0.744866666666667
+Canonical	No definite suffix on adjective|Definite suffix on adjective	0.923633333333333
+Canonical	No obligatory definiteness|Obligatory definiteness on last member of NP|Obligatory definiteness on first member of NP	0.857133333333333
+Canonical	No definite article|Definite article	0.9409
+Canonical	No definite suffix on noun|Definite suffix on noun	0.9121
+Canonical	Fewer than five genders|More than five genders	0.9872
+Canonical	No noun class for animates|Noun class for animates	0.087
+Canonical	No masculine/feminine distinction|Masculine/feminine distinction	0.6837
+Canonical	No neuter gender|Neuter gender	0.854733333333333
+Canonical	No gender on predicative adjective|Gender on predicative adjective	0.6727
+Canonical	Not more than 7 cases|More than 7 cases	0.416166666666667
+Canonical	No agglutination for number|Agglutination for number	0.770766666666667
+Canonical	No agglutination for case|Agglutination for case	0.7819
+Canonical	No genitive or dative|Genitive but no dative|Genitive but no dative|Dative but no genitive|Genitive and dative	0.607866666666667
+Canonical	No case difference A and O|Case difference A and O	0.715433333333333
+Canonical	No peripheral cases|Peripheral cases	0.982733333333333
+Canonical	No Vocative|Vocative	0.885066666666667
+Canonical	No agreement on prepositions|Agreement on prepositions	0.9676
+Canonical	Fewer than 7 pronominal cases (pronouns)|More than 7 pronominal cases (pronouns)	0.969
+Canonical	No agglutination for number (pronouns)|Agglutination for number (pronouns)	0.918566666666667
+Canonical	Agglutination for case (pronouns)|No agglutination for case (pronouns)	0.0375333333333333
+Canonical	No difference A and O (pronouns)|Difference A and O (pronouns)	0.934366666666667
+Canonical	No difference O and Dative (pronouns)|Difference, O and Dative (pronouns)	0.429066666666667
+Canonical	No peripheral cases (pronouns)|Peripheral cases (pronouns)	0.9225
+Canonical	No Vocative (pronouns)|Vocative (pronouns)	0.985266666666667
+Canonical	No synthetic Present progressive|Synthetic Present progressive	0.078
+Canonical	No Present progressive by auxiliary|Present progressive by auxiliary	0.676
+Canonical	No Future by auxiliary|Future by auxiliary	0.6284
+Canonical	No Future by participle|Future by participle	0.724
+Canonical	No Future by particle|Future by particle	0.893166666666667
+Canonical	No synthetic Future|Synthetic Future	0.7305
+Canonical	No Future by perfect|Future by perfect	0.980466666666667
+Canonical	Present progressive: Syncretic A Agreement|Present progressive: No A Agreement|Present progressive: Gender A Agreement|Present progressive: Full A Agreement|Present progressive: Full and Gender A Agreement	0.657366666666667
+Canonical	Present progressive: Syncretic Dative Agreement|Present progressive: No Dative Agreement|Present progressive: Full Dative Agreement	0.922433333333333
+Canonical	Present progressive: Syncretic O Agreement|Present progressive: Full O Agreement|Present progressive: No O Agreement	0.920433333333333
+Canonical	Simple past: Syncretic A Agreement|Simple past: No A Agreement|Simple past: Gender A Agreement|Simple past: Full A Agreement|Simple past: Full and Gender A Agreement	0.3865
+Canonical	Simple past: Syncretic Dative Agreement|Simple past: No Dative Agreement|Simple past: Gender Dative Agreement|Simple past: Full Dative Agreement	0.8931
+Canonical	Simple past: Syncretic O Agreement|Simple past: Gender O Agreement|Simple past: Gender and full O Agreement|Simple past: No O Agreement	0.785466666666667
+Canonical	No Postpositions|Postpositions	0.849433333333333
+Canonical	No Prepositions|Prepositions	0.2618
+Canonical	Clitic finite V: Category irrelevant|Clitic finite V: VO|Clitic finite V: OV|Clitic finite V: VO and OV|Clitic finite V: V2	0.0
+Canonical	Infinitive: Category irrelevant|Infinitive: VO|Infinitive: OV|Infinitive: OV and VO	0.805533333333333
+Canonical	Main clause: VSO|Main clause: V2|Main clause: SVO|Main clause: SOV|Main clause: SOV/SVO	0.904566666666667
+Canonical	Possessor - Noun|Noun - Possessor|Possessor - Noun and Noun - Possessor	0.5851
+Canonical	Noun - Adjective|Adjective - Noun|Adjective - Noun and Noun - Adjective	0.869866666666667
+Canonical	NRel: Category irrelevant|NRel: Relative - Noun|NRel: Noun - Relative|NRel: Relative - Noun and Noun - Relative	0.291733333333333
+Canonical	Participle - O|O - Participle|Participle - O and O - Participle	0.8936
+Canonical	Subordinate clause: VSO|Subordinate clause: V2|Subordinate clause: SVO|Subordinate clause: SOV|Subordinate clause: SOV and SVO	0.8992
+Canonical	No WH - Verb (initial or not)|WH - Verb (initial or not)	0.778233333333333
+Canonical	No WH-initial (no inversion)|WH-initial (no inversion)	0.787966666666667
+Isolating	Present-Past: No marking difference|Present-Past: A marking in Present Progressive and Past|Present-Past: Active-ergative in Present Progressive and Past|Present-Past: All systems	0.781233333333333
+Isolating	Noun, Present progressive: Tripartite|Noun, Present progressive: Nominative-accusative|Noun, Present progressive: No marking	0.314866666666667
+Isolating	Noun, Simple past: Tripartite|Noun, Simple past: Nominative-accusative|Noun, Simple past: Ergative|Noun, Simple past: No marking	0.302766666666667
+Isolating	Verb, Present progressive: Tripartite|Verb, Present progressive: Nominative-Accusative|Verb, Present progressive: No marking	0.0605
+Isolating	Verb, Simple past: Tripartite|Verb, Simple past: Nominative-accusative|Verb, Simple past: Ergative|Verb, Simple past: No marking	0.1053
+Isolating	No case on adjective|Case on adjective	0.440866666666667
+Isolating	No case on article|Case on article	0.732966666666667
+Isolating	No rule of case on last/first member of NP|Case on last member of NP	0.924333333333333
+Isolating	No case on noun|Case on noun	0.255133333333333
+Isolating	No definite suffix on adjective|Definite suffix on adjective	0.923633333333333
+Isolating	No obligatory definiteness|Obligatory definiteness on last member of NP|Obligatory definiteness on first member of NP	0.0673333333333333
+Isolating	No definite article|Definite article	0.0591
+Isolating	No definite suffix on noun|Definite suffix on noun	0.9121
+Isolating	Fewer than five genders|More than five genders	0.9872
+Isolating	No noun class for animates|Noun class for animates	0.087
+Isolating	No masculine/feminine distinction|Masculine/feminine distinction	0.3163
+Isolating	No neuter gender|Neuter gender	0.854733333333333
+Isolating	Not more than 7 cases|More than 7 cases	0.416166666666667
+Isolating	No agglutination for number|Agglutination for number	0.770766666666667
+Isolating	No agglutination for case|Agglutination for case	0.7819
+Isolating	No genitive or dative|Genitive but no dative|Genitive but no dative|Dative but no genitive|Genitive and dative	0.183833333333333
+Isolating	No case difference A and O|Case difference A and O	0.284566666666667
+Isolating	No peripheral cases|Peripheral cases	0.0172666666666667
+Isolating	No Vocative|Vocative	0.114933333333333
+Isolating	Fewer than 7 pronominal cases (pronouns)|More than 7 pronominal cases (pronouns)	0.969
+Isolating	No agglutination for number (pronouns)|Agglutination for number (pronouns)	0.918566666666667
+Isolating	Agglutination for case (pronouns)|No agglutination for case (pronouns)	0.0375333333333333
+Isolating	No difference A and O (pronouns)|Difference A and O (pronouns)	0.0656333333333333
+Isolating	No difference O and Dative (pronouns)|Difference, O and Dative (pronouns)	0.570933333333333
+Isolating	No peripheral cases (pronouns)|Peripheral cases (pronouns)	0.0775
+Isolating	No Vocative (pronouns)|Vocative (pronouns)	0.985266666666667
+Isolating	No synthetic Present progressive|Synthetic Present progressive	0.078
+Isolating	No Present progressive by auxiliary|Present progressive by auxiliary	0.676
+Isolating	No Future by auxiliary|Future by auxiliary	0.6284
+Isolating	No Future by participle|Future by participle	0.724
+Isolating	No Future by particle|Future by particle	0.893166666666667
+Isolating	No synthetic Future|Synthetic Future	0.7305
+Isolating	No Future by perfect|Future by perfect	0.980466666666667
+Isolating	Present progressive: Syncretic A Agreement|Present progressive: No A Agreement|Present progressive: Gender A Agreement|Present progressive: Full A Agreement|Present progressive: Full and Gender A Agreement	0.2124
+Isolating	Simple past: Syncretic A Agreement|Simple past: No A Agreement|Simple past: Gender A Agreement|Simple past: Full A Agreement|Simple past: Full and Gender A Agreement	0.207333333333333
+Isolating	No Postpositions|Postpositions	0.849433333333333
+Isolating	No Prepositions|Prepositions	0.0
+Isolating	Clitic finite V: Category irrelevant|Clitic finite V: VO|Clitic finite V: OV|Clitic finite V: VO and OV|Clitic finite V: V2	0.0
+Isolating	Infinitive: Category irrelevant|Infinitive: VO|Infinitive: OV|Infinitive: OV and VO	0.936633333333333
+Isolating	Main clause: VSO|Main clause: V2|Main clause: SVO|Main clause: SOV|Main clause: SOV/SVO	0.9698000000000003
+Isolating	Possessor - Noun|Noun - Possessor|Possessor - Noun and Noun - Possessor	1.0000000000000002
+Isolating	Noun - Adjective|Adjective - Noun|Adjective - Noun and Noun - Adjective	1.0000000000000002
+Isolating	NRel: Category irrelevant|NRel: Relative - Noun|NRel: Noun - Relative|NRel: Relative - Noun and Noun - Relative	0.9595666666666662
+Isolating	Participle - O|O - Participle|Participle - O and O - Participle	1.0
+Isolating	Subordinate clause: VSO|Subordinate clause: V2|Subordinate clause: SVO|Subordinate clause: SOV|Subordinate clause: SOV and SVO	0.9862
+Active-Stative	Present-Past: No marking difference|Present-Past: A marking in Present Progressive and Past|Present-Past: Active-ergative in Present Progressive and Past|Present-Past: All systems	0.781233333333333
+Active-Stative	Noun, Present progressive: Tripartite|Noun, Present progressive: Nominative-accusative|Noun, Present progressive: No marking	0.0
+Active-Stative	Noun, Simple past: Tripartite|Noun, Simple past: Nominative-accusative|Noun, Simple past: Ergative|Noun, Simple past: No marking	0.0
+Active-Stative	Pronoun, Present progressive: Nominative-accusative|Pronoun, Present progressive: No marking	0.0
+Active-Stative	Pronoun, Simple past: Tripartite|Pronoun, Simple past: Nominative-accusative|Pronoun, Simple past: Ergative|Pronoun, Simple past: No marking	0.0
+Active-Stative	Verb, Present progressive: Tripartite|Verb, Present progressive: Nominative-Accusative|Verb, Present progressive: No marking	0.0
+Active-Stative	Verb, Simple past: Tripartite|Verb, Simple past: Nominative-accusative|Verb, Simple past: Ergative|Verb, Simple past: No marking	0.0
+Active-Stative	No case on adjective|Case on adjective	0.559133333333333
+Active-Stative	No case on article|Case on article	0.732966666666667
+Active-Stative	No rule of case on last/first member of NP|Case on last member of NP	0.0756666666666667
+Active-Stative	No case on noun|Case on noun	0.744866666666667
+Active-Stative	No definite suffix on adjective|Definite suffix on adjective	0.923633333333333
+Active-Stative	No obligatory definiteness|Obligatory definiteness on last member of NP|Obligatory definiteness on first member of NP	0.857133333333333
+Active-Stative	No definite article|Definite article	0.9409
+Active-Stative	No definite suffix on noun|Definite suffix on noun	0.9121
+Active-Stative	Fewer than five genders|More than five genders	0.9872
+Active-Stative	No noun class for animates|Noun class for animates	0.087
+Active-Stative	No masculine/feminine distinction|Masculine/feminine distinction	0.3163
+Active-Stative	No neuter gender|Neuter gender	0.854733333333333
+Active-Stative	No gender on predicative adjective|Gender on predicative adjective	0.6727
+Active-Stative	Not more than 7 cases|More than 7 cases	0.416166666666667
+Active-Stative	No agglutination for number|Agglutination for number	0.229233333333333
+Active-Stative	No agglutination for case|Agglutination for case	0.2181
+Active-Stative	No genitive or dative|Genitive but no dative|Genitive but no dative|Dative but no genitive|Genitive and dative	0.0
+Active-Stative	No case difference A and O|Case difference A and O	0.715433333333333
+Active-Stative	No peripheral cases|Peripheral cases	0.0172666666666667
+Active-Stative	No agreement on prepositions|Agreement on prepositions	0.9676
+Active-Stative	Fewer than 7 pronominal cases (pronouns)|More than 7 pronominal cases (pronouns)	0.969
+Active-Stative	No difference A and O (pronouns)|Difference A and O (pronouns)	0.934366666666667
+Active-Stative	No difference O and Dative (pronouns)|Difference, O and Dative (pronouns)	0.570933333333333
+Active-Stative	No peripheral cases (pronouns)|Peripheral cases (pronouns)	0.0775
+Active-Stative	No synthetic Present progressive|Synthetic Present progressive	0.078
+Active-Stative	No Present progressive by auxiliary|Present progressive by auxiliary	0.676
+Active-Stative	No Future by auxiliary|Future by auxiliary	0.6284
+Active-Stative	No Future by participle|Future by participle	0.724
+Active-Stative	No Future by particle|Future by particle	0.893166666666667
+Active-Stative	No synthetic Future|Synthetic Future	0.7305
+Active-Stative	No Future by perfect|Future by perfect	0.980466666666667
+Active-Stative	Present progressive: Syncretic A Agreement|Present progressive: No A Agreement|Present progressive: Gender A Agreement|Present progressive: Full A Agreement|Present progressive: Full and Gender A Agreement	0.657366666666667
+Active-Stative	Present progressive: Syncretic O Agreement|Present progressive: Full O Agreement|Present progressive: No O Agreement	0.0578
+Active-Stative	Simple past: Syncretic A Agreement|Simple past: No A Agreement|Simple past: Gender A Agreement|Simple past: Full A Agreement|Simple past: Full and Gender A Agreement	0.207333333333333
+Active-Stative	Simple past: Syncretic Dative Agreement|Simple past: No Dative Agreement|Simple past: Gender Dative Agreement|Simple past: Full Dative Agreement	0.8931
+Active-Stative	Simple past: Syncretic O Agreement|Simple past: Gender O Agreement|Simple past: Gender and full O Agreement|Simple past: No O Agreement	0.0830666666666667
+Active-Stative	No Postpositions|Postpositions	0.849433333333333
+Active-Stative	No Prepositions|Prepositions	0.0
+Active-Stative	Clitic finite V: Category irrelevant|Clitic finite V: VO|Clitic finite V: OV|Clitic finite V: VO and OV|Clitic finite V: V2	0.141233333333333
+Active-Stative	Infinitive: Category irrelevant|Infinitive: VO|Infinitive: OV|Infinitive: OV and VO	0.805533333333333
+Active-Stative	Main clause: VSO|Main clause: V2|Main clause: SVO|Main clause: SOV|Main clause: SOV/SVO	0.904566666666667
+Active-Stative	Possessor - Noun|Noun - Possessor|Possessor - Noun and Noun - Possessor	0.5851
+Active-Stative	Noun - Adjective|Adjective - Noun|Adjective - Noun and Noun - Adjective	0.869866666666667
+Active-Stative	NRel: Category irrelevant|NRel: Relative - Noun|NRel: Noun - Relative|NRel: Relative - Noun and Noun - Relative	0.291733333333333
+Active-Stative	Participle - O|O - Participle|Participle - O and O - Participle	0.8936
+Active-Stative	Subordinate clause: VSO|Subordinate clause: V2|Subordinate clause: SVO|Subordinate clause: SOV|Subordinate clause: SOV and SVO	0.8992

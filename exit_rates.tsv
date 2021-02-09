@@ -1,0 +1,179 @@
+	values	exit.rates
+ALIGNMENT|Compare PROG-PAST|PAST_A=PROG_O;ALIGNMENT|Compare PROG-PAST|PROG_A=PST_O;ALIGNMENT|Compare PROG-PAST|PROG_So=PST_So	Present-Past: A marking in Present Progressive and Past	0.38570995767489
+ALIGNMENT|Compare PROG-PAST|PAST_A=PROG_O;ALIGNMENT|Compare PROG-PAST|PROG_A=PST_O;ALIGNMENT|Compare PROG-PAST|PROG_So=PST_So	Present-Past: Active-ergative in Present Progressive and Past	1.50343121208657
+ALIGNMENT|Compare PROG-PAST|PAST_A=PROG_O;ALIGNMENT|Compare PROG-PAST|PROG_A=PST_O;ALIGNMENT|Compare PROG-PAST|PROG_So=PST_So	Present-Past: All systems	3.03213215069795
+ALIGNMENT|Compare PROG-PAST|PAST_A=PROG_O;ALIGNMENT|Compare PROG-PAST|PROG_A=PST_O;ALIGNMENT|Compare PROG-PAST|PROG_So=PST_So	Present-Past: No marking difference	4.64785247962739
+ALIGNMENT|Noun: Present Progressive|N:PROG: O=So?;ALIGNMENT|Noun: Present Progressive|N:PROG:A=O?;ALIGNMENT|Noun: Present Progressive|N:PROG:A=Sa?;ALIGNMENT|Noun: Present Progressive|N:PROG:Sa=So?	Noun, Present progressive: No marking	1.21982685742386
+ALIGNMENT|Noun: Present Progressive|N:PROG: O=So?;ALIGNMENT|Noun: Present Progressive|N:PROG:A=O?;ALIGNMENT|Noun: Present Progressive|N:PROG:A=Sa?;ALIGNMENT|Noun: Present Progressive|N:PROG:Sa=So?	Noun, Present progressive: Nominative-accusative	0.675586903450523
+ALIGNMENT|Noun: Present Progressive|N:PROG: O=So?;ALIGNMENT|Noun: Present Progressive|N:PROG:A=O?;ALIGNMENT|Noun: Present Progressive|N:PROG:A=Sa?;ALIGNMENT|Noun: Present Progressive|N:PROG:Sa=So?	Noun, Present progressive: Tripartite	3.38313790542966
+ALIGNMENT|Noun: Simple Past|N:PST: O=So?;ALIGNMENT|Noun: Simple Past|N:PST:A=O?;ALIGNMENT|Noun: Simple Past|N:PST:A=Sa?;ALIGNMENT|Noun: Simple Past|N:PST:Sa=So?	Noun, Simple past: Ergative	1.2094447135313
+ALIGNMENT|Noun: Simple Past|N:PST: O=So?;ALIGNMENT|Noun: Simple Past|N:PST:A=O?;ALIGNMENT|Noun: Simple Past|N:PST:A=Sa?;ALIGNMENT|Noun: Simple Past|N:PST:Sa=So?	Noun, Simple past: No marking	1.58267058980515
+ALIGNMENT|Noun: Simple Past|N:PST: O=So?;ALIGNMENT|Noun: Simple Past|N:PST:A=O?;ALIGNMENT|Noun: Simple Past|N:PST:A=Sa?;ALIGNMENT|Noun: Simple Past|N:PST:Sa=So?	Noun, Simple past: Nominative-accusative	0.960874470251561
+ALIGNMENT|Noun: Simple Past|N:PST: O=So?;ALIGNMENT|Noun: Simple Past|N:PST:A=O?;ALIGNMENT|Noun: Simple Past|N:PST:A=Sa?;ALIGNMENT|Noun: Simple Past|N:PST:Sa=So?	Noun, Simple past: Tripartite	4.42167043073959
+ALIGNMENT|Pronoun: Present Progressive|P:PROG: O=So?;ALIGNMENT|Pronoun: Present Progressive|P:PROG:A=O?;ALIGNMENT|Pronoun: Present Progressive|P:PROG:A=Sa?;ALIGNMENT|Pronoun: Present Progressive|P:PROG:Sa=So?	Pronoun, Present progressive: No marking	0.807377690034766
+ALIGNMENT|Pronoun: Present Progressive|P:PROG: O=So?;ALIGNMENT|Pronoun: Present Progressive|P:PROG:A=O?;ALIGNMENT|Pronoun: Present Progressive|P:PROG:A=Sa?;ALIGNMENT|Pronoun: Present Progressive|P:PROG:Sa=So?	Pronoun, Present progressive: Nominative-accusative	0.118178370806153
+ALIGNMENT|Pronoun: Simple Past|P:PST: O=So?;ALIGNMENT|Pronoun: Simple Past|P:PST:A=O?;ALIGNMENT|Pronoun: Simple Past|P:PST:A=Sa?;ALIGNMENT|Pronoun: Simple Past|P:PST:Sa=So?	Pronoun, Simple past: Ergative	0.938682880362484
+ALIGNMENT|Pronoun: Simple Past|P:PST: O=So?;ALIGNMENT|Pronoun: Simple Past|P:PST:A=O?;ALIGNMENT|Pronoun: Simple Past|P:PST:A=Sa?;ALIGNMENT|Pronoun: Simple Past|P:PST:Sa=So?	Pronoun, Simple past: No marking	1.973406153188
+ALIGNMENT|Pronoun: Simple Past|P:PST: O=So?;ALIGNMENT|Pronoun: Simple Past|P:PST:A=O?;ALIGNMENT|Pronoun: Simple Past|P:PST:A=Sa?;ALIGNMENT|Pronoun: Simple Past|P:PST:Sa=So?	Pronoun, Simple past: Nominative-accusative	0.259142071139455
+ALIGNMENT|Pronoun: Simple Past|P:PST: O=So?;ALIGNMENT|Pronoun: Simple Past|P:PST:A=O?;ALIGNMENT|Pronoun: Simple Past|P:PST:A=Sa?;ALIGNMENT|Pronoun: Simple Past|P:PST:Sa=So?	Pronoun, Simple past: Tripartite	3.96487295398609
+ALIGNMENT|Reflexive Pronoun in trans. Clause|REFL-ref-A	Reflexive not with Agent	0.888062113170285
+ALIGNMENT|Reflexive Pronoun in trans. Clause|REFL-ref-A	Reflexive with Agent	0.0420431884457622
+ALIGNMENT|Reflexive Pronoun in trans. Clause|REFL-ref-O	Reflexive not with Object	0.035032956537251
+ALIGNMENT|Reflexive Pronoun in trans. Clause|REFL-ref-O	Reflexive with Object	0.548471244801944
+ALIGNMENT|Verb: Present Progressive|V:PROG: O=So?;ALIGNMENT|Verb: Present Progressive|V:PROG:A=O?;ALIGNMENT|Verb: Present Progressive|V:PROG:A=Sa?;ALIGNMENT|Verb: Present Progressive|V:PROG:Sa=So?	Verb, Present progressive: A=O/So=O	4.03805735126291
+ALIGNMENT|Verb: Present Progressive|V:PROG: O=So?;ALIGNMENT|Verb: Present Progressive|V:PROG:A=O?;ALIGNMENT|Verb: Present Progressive|V:PROG:A=Sa?;ALIGNMENT|Verb: Present Progressive|V:PROG:Sa=So?	Verb, Present progressive: No marking	2.8744197469647
+ALIGNMENT|Verb: Present Progressive|V:PROG: O=So?;ALIGNMENT|Verb: Present Progressive|V:PROG:A=O?;ALIGNMENT|Verb: Present Progressive|V:PROG:A=Sa?;ALIGNMENT|Verb: Present Progressive|V:PROG:Sa=So?	Verb, Present progressive: Nominative-Accusative	0.211999982423332
+ALIGNMENT|Verb: Present Progressive|V:PROG: O=So?;ALIGNMENT|Verb: Present Progressive|V:PROG:A=O?;ALIGNMENT|Verb: Present Progressive|V:PROG:A=Sa?;ALIGNMENT|Verb: Present Progressive|V:PROG:Sa=So?	Verb, Present progressive: Tripartite	2.91227426388959
+ALIGNMENT|Verb: Simple Past|V:PST: O=So?;ALIGNMENT|Verb: Simple Past|V:PST:A=O?;ALIGNMENT|Verb: Simple Past|V:PST:A=Sa?;ALIGNMENT|Verb: Simple Past|V:PST:Sa=So?	Verb, Simple past: Double oblique	5.64619616825089
+ALIGNMENT|Verb: Simple Past|V:PST: O=So?;ALIGNMENT|Verb: Simple Past|V:PST:A=O?;ALIGNMENT|Verb: Simple Past|V:PST:A=Sa?;ALIGNMENT|Verb: Simple Past|V:PST:Sa=So?	Verb, Simple past: Ergative	2.07862761947777
+ALIGNMENT|Verb: Simple Past|V:PST: O=So?;ALIGNMENT|Verb: Simple Past|V:PST:A=O?;ALIGNMENT|Verb: Simple Past|V:PST:A=Sa?;ALIGNMENT|Verb: Simple Past|V:PST:Sa=So?	Verb, Simple past: No marking	3.45170014096449
+ALIGNMENT|Verb: Simple Past|V:PST: O=So?;ALIGNMENT|Verb: Simple Past|V:PST:A=O?;ALIGNMENT|Verb: Simple Past|V:PST:A=Sa?;ALIGNMENT|Verb: Simple Past|V:PST:Sa=So?	Verb, Simple past: Nominative-accusative	0.562962490258093
+ALIGNMENT|Verb: Simple Past|V:PST: O=So?;ALIGNMENT|Verb: Simple Past|V:PST:A=O?;ALIGNMENT|Verb: Simple Past|V:PST:A=Sa?;ALIGNMENT|Verb: Simple Past|V:PST:Sa=So?	Verb, Simple past: Tripartite	2.9987656547681
+Nominal morphology|Case marking|CASE-ADJ	Case on adjective	0.562813085914162
+Nominal morphology|Case marking|CASE-ADJ	No case on adjective	0.408175797681097
+Nominal morphology|Case marking|CASE-ART	Case on article	0.722497058511946
+Nominal morphology|Case marking|CASE-ART	No case on article	0.182787260214183
+Nominal morphology|Case marking|CASE-FIRST;Nominal morphology|Case marking|CASE-LAST	Case on last member of NP	0.258572570283569
+Nominal morphology|Case marking|CASE-FIRST;Nominal morphology|Case marking|CASE-LAST	No rule of case on last/first member of NP	0.138186465199398
+Nominal morphology|Case marking|CASE-N	Case on noun	0.316590260080779
+Nominal morphology|Case marking|CASE-N	No case on noun	0.718503797493856
+Nominal morphology|Definiteness marking|ADJ-DEF	Definite suffix on adjective	0.27453270795529
+Nominal morphology|Definiteness marking|ADJ-DEF	No definite suffix on adjective	0.0612160369192534
+Nominal morphology|Definiteness marking|DEF-FIRST;Nominal morphology|Definiteness marking|DEF-LAST	No obligatory definiteness	0.275670207240762
+Nominal morphology|Definiteness marking|DEF-FIRST;Nominal morphology|Definiteness marking|DEF-LAST	Obligatory definiteness on first member of NP	0.318423062250369
+Nominal morphology|Definiteness marking|DEF-FIRST;Nominal morphology|Definiteness marking|DEF-LAST	Obligatory definiteness on last member of NP	2.19140146817978
+Nominal morphology|Definiteness marking|DEF.ART	Definite article	0.135234266456683
+Nominal morphology|Definiteness marking|DEF.ART	No definite article	0.102550235785331
+Nominal morphology|Definiteness marking|N-DEF	Definite suffix on noun	0.308053071019793
+Nominal morphology|Definiteness marking|N-DEF	No definite suffix on noun	0.124239862704809
+Nominal morphology|Gender / Noun class|<5 GENDER	Fewer than five genders	0.0179814711157185
+Nominal morphology|Gender / Noun class|<5 GENDER	More than five genders	0.650090748722643
+Nominal morphology|Gender / Noun class|ANIM	No noun class for animates	0.0705663792529218
+Nominal morphology|Gender / Noun class|ANIM	Noun class for animates	0.508872196263448
+Nominal morphology|Gender / Noun class|M/F	Masculine/feminine distinction	0.214347966328166
+Nominal morphology|Gender / Noun class|M/F	No masculine/feminine distinction	0.373519392879863
+Nominal morphology|Gender / Noun class|NEUTR	Neuter gender	0.361865676983726
+Nominal morphology|Gender / Noun class|NEUTR	No neuter gender	0.0945194130781203
+Nominal morphology|Gender agreement|PRED-ADJ	Gender on predicative adjective	0.311996792253422
+Nominal morphology|Gender agreement|PRED-ADJ	No gender on predicative adjective	0.395130049978007
+Nominal morphology|Nominal cases|<7 Cases	More than 7 cases	0.728759655885699
+Nominal morphology|Nominal cases|<7 Cases	Not more than 7 cases	0.057250170386371
+Nominal morphology|Nominal cases|AGG.CASE.NR	Agglutination for number	0.353786048695584
+Nominal morphology|Nominal cases|AGG.CASE.NR	No agglutination for number	0.187323138768143
+Nominal morphology|Nominal cases|AGGL.CASE	Agglutination for case	0.520472601825494
+Nominal morphology|Nominal cases|AGGL.CASE	No agglutination for case	0.218555999882019
+Nominal morphology|Nominal cases|DAT;Nominal morphology|Nominal cases|GEN;Nominal morphology|Nominal cases|GEN/DAT	Dative but no genitive	3.4097970399843
+Nominal morphology|Nominal cases|DAT;Nominal morphology|Nominal cases|GEN;Nominal morphology|Nominal cases|GEN/DAT	Genitive and dative	0.673524018741992
+Nominal morphology|Nominal cases|DAT;Nominal morphology|Nominal cases|GEN;Nominal morphology|Nominal cases|GEN/DAT	Genitive but no dative	2.24736004439275
+Nominal morphology|Nominal cases|DAT;Nominal morphology|Nominal cases|GEN;Nominal morphology|Nominal cases|GEN/DAT	No genitive or dative	0.540418714536179
+Nominal morphology|Nominal cases|O-case	Case difference A and O	0.355137515137936
+Nominal morphology|Nominal cases|O-case	No case difference A and O	0.583574444041469
+Nominal morphology|Nominal cases|OBL-Cases	No peripheral cases	0.0463519630515506
+Nominal morphology|Nominal cases|OBL-Cases	Peripheral cases	0.150229312915487
+Nominal morphology|Nominal cases|VOC	No Vocative	0.128458481621481
+Nominal morphology|Nominal cases|VOC	Vocative	0.253598134024811
+Nominal morphology|Preposition agreement|PRON-AGR	Agreement on prepositions	0.110412163971496
+Nominal morphology|Preposition agreement|PRON-AGR	No agreement on prepositions	0.0393870045425494
+Nominal morphology|Pronominal Cases|<7 Cases	Fewer than 7 pronominal cases (pronouns)	0.038953433026903
+Nominal morphology|Pronominal Cases|<7 Cases	More than 7 pronominal cases (pronouns)	0.740821444149544
+Nominal morphology|Pronominal Cases|AGGL.CASE	Agglutination for number (pronouns)	0.324396565974884
+Nominal morphology|Pronominal Cases|AGGL.CASE	No agglutination for number (pronouns)	0.132501071868971
+Nominal morphology|Pronominal Cases|AGGL.CASE.NR	Agglutination for case (pronouns)	0.0585772062282678
+Nominal morphology|Pronominal Cases|AGGL.CASE.NR	No agglutination for case (pronouns)	0.434429914262499
+Nominal morphology|Pronominal Cases|A≠O	Difference A and O (pronouns)	0.0855288600278697
+Nominal morphology|Pronominal Cases|A≠O	No difference A and O (pronouns)	0.39662169928717
+Nominal morphology|Pronominal Cases|DAT≠O	Difference, O and Dative (pronouns)	0.535140632549071
+Nominal morphology|Pronominal Cases|DAT≠O	No difference O and Dative (pronouns)	0.3811351932727
+Nominal morphology|Pronominal Cases|OBL-Cases	No peripheral cases (pronouns)	0.0568268033596154
+Nominal morphology|Pronominal Cases|OBL-Cases	Peripheral cases (pronouns)	0.236820406970677
+Nominal morphology|Pronominal Cases|VOC	No Vocative (pronouns)	0.0193062437833142
+Nominal morphology|Pronominal Cases|VOC	Vocative (pronouns)	0.721219359912637
+TENSE|Continous present|Present ????	No synthetic Present progressive	0.522875885608922
+TENSE|Continous present|Present ????	Synthetic Present progressive	0.0711746942401891
+TENSE|Continous present|Progressive present	No Present progressive by auxiliary	0.270672427120288
+TENSE|Continous present|Progressive present	Present progressive by auxiliary	0.440952907555303
+TENSE|Future|FUT.AUX	Future by auxiliary	0.46392907307915
+TENSE|Future|FUT.AUX	No Future by auxiliary	0.38328729102705
+TENSE|Future|FUT.Participle	Future by participle	0.653955901422937
+TENSE|Future|FUT.Participle	No Future by participle	0.0930604056433293
+TENSE|Future|FUT.Particle	Future by particle	0.581724963269827
+TENSE|Future|FUT.Particle	No Future by particle	0.132511031339965
+TENSE|Future|FUT.Synth	No synthetic Future	0.165566806744744
+TENSE|Future|FUT.Synth	Synthetic Future	0.206809914531992
+TENSE|Future|PERF.FUT	Future by perfect	0.360627333105164
+TENSE|Future|PERF.FUT	No Future by perfect	0.0236835846021827
+Verbal morphology|present progressive, A|PROG:A-AGR-FULL;Verbal morphology|present progressive, A|PROG:A-Gender-AGR;Verbal morphology|present progressive, A|PROG:NO-A-AGR	Present progressive: Full A Agreement	0.494583034201694
+Verbal morphology|present progressive, A|PROG:A-AGR-FULL;Verbal morphology|present progressive, A|PROG:A-Gender-AGR;Verbal morphology|present progressive, A|PROG:NO-A-AGR	Present progressive: Full and Gender A Agreement	5.7844040313894
+Verbal morphology|present progressive, A|PROG:A-AGR-FULL;Verbal morphology|present progressive, A|PROG:A-Gender-AGR;Verbal morphology|present progressive, A|PROG:NO-A-AGR	Present progressive: Gender A Agreement	4.53090021663359
+Verbal morphology|present progressive, A|PROG:A-AGR-FULL;Verbal morphology|present progressive, A|PROG:A-Gender-AGR;Verbal morphology|present progressive, A|PROG:NO-A-AGR	Present progressive: No A Agreement	3.79625480584008
+Verbal morphology|present progressive, A|PROG:A-AGR-FULL;Verbal morphology|present progressive, A|PROG:A-Gender-AGR;Verbal morphology|present progressive, A|PROG:NO-A-AGR	Present progressive: Syncretic A Agreement	0.724200520341845
+Verbal morphology|present progressive, DAT|PROG:DAT-AGR-FULL;Verbal morphology|present progressive, DAT|PROG:DAT-Gender-AGR;Verbal morphology|present progressive, DAT|PROG:NO-DAT-AGR	Present progressive: Full Dative Agreement	2.77036622286862
+Verbal morphology|present progressive, DAT|PROG:DAT-AGR-FULL;Verbal morphology|present progressive, DAT|PROG:DAT-Gender-AGR;Verbal morphology|present progressive, DAT|PROG:NO-DAT-AGR	Present progressive: No Dative Agreement	0.102075933282264
+Verbal morphology|present progressive, DAT|PROG:DAT-AGR-FULL;Verbal morphology|present progressive, DAT|PROG:DAT-Gender-AGR;Verbal morphology|present progressive, DAT|PROG:NO-DAT-AGR	Present progressive: Syncretic Dative Agreement	1.12768486584313
+Verbal morphology|present progressive, O|PROG:NO-O-AGR;Verbal morphology|present progressive, O|PROG:O-AGR-FULL;Verbal morphology|present progressive, O|PROG:O-Gender-AGR	Present progressive: Full O Agreement	2.76487969008637
+Verbal morphology|present progressive, O|PROG:NO-O-AGR;Verbal morphology|present progressive, O|PROG:O-AGR-FULL;Verbal morphology|present progressive, O|PROG:O-Gender-AGR	Present progressive: No O Agreement	0.101530961788756
+Verbal morphology|present progressive, O|PROG:NO-O-AGR;Verbal morphology|present progressive, O|PROG:O-AGR-FULL;Verbal morphology|present progressive, O|PROG:O-Gender-AGR	Present progressive: Syncretic O Agreement	1.11617911919064
+Verbal morphology|simple PAST, A|PST:A-AGR-FULL;Verbal morphology|simple PAST, A|PST:A-Gender-AGR;Verbal morphology|simple PAST, A|PST:NO-A-AGR	Simple past: Full A Agreement	7.63963374527057
+Verbal morphology|simple PAST, A|PST:A-AGR-FULL;Verbal morphology|simple PAST, A|PST:A-Gender-AGR;Verbal morphology|simple PAST, A|PST:NO-A-AGR	Simple past: Full and Gender A Agreement	2.13030290777086
+Verbal morphology|simple PAST, A|PST:A-AGR-FULL;Verbal morphology|simple PAST, A|PST:A-Gender-AGR;Verbal morphology|simple PAST, A|PST:NO-A-AGR	Simple past: Gender A Agreement	5.93253133312182
+Verbal morphology|simple PAST, A|PST:A-AGR-FULL;Verbal morphology|simple PAST, A|PST:A-Gender-AGR;Verbal morphology|simple PAST, A|PST:NO-A-AGR	Simple past: No A Agreement	6.08581737994503
+Verbal morphology|simple PAST, A|PST:A-AGR-FULL;Verbal morphology|simple PAST, A|PST:A-Gender-AGR;Verbal morphology|simple PAST, A|PST:NO-A-AGR	Simple past: Syncretic A Agreement	2.99398881979867
+Verbal morphology|simple PAST, DAT|PST:DAT-AGR-FULL;Verbal morphology|simple PAST, DAT|PST:DAT-Gender-AGR;Verbal morphology|simple PAST, DAT|PST:NO-DAT-AGR	Simple past: Full Dative Agreement	3.82586080197021
+Verbal morphology|simple PAST, DAT|PST:DAT-AGR-FULL;Verbal morphology|simple PAST, DAT|PST:DAT-Gender-AGR;Verbal morphology|simple PAST, DAT|PST:NO-DAT-AGR	Simple past: Gender Dative Agreement	3.87424062815238
+Verbal morphology|simple PAST, DAT|PST:DAT-AGR-FULL;Verbal morphology|simple PAST, DAT|PST:DAT-Gender-AGR;Verbal morphology|simple PAST, DAT|PST:NO-DAT-AGR	Simple past: No Dative Agreement	0.138484502064604
+Verbal morphology|simple PAST, DAT|PST:DAT-AGR-FULL;Verbal morphology|simple PAST, DAT|PST:DAT-Gender-AGR;Verbal morphology|simple PAST, DAT|PST:NO-DAT-AGR	Simple past: Syncretic Dative Agreement	1.60798843282779
+Verbal morphology|simple PAST, O|PST:NO-O-AGR;Verbal morphology|simple PAST, O|PST:O-AGR-FULL;Verbal morphology|simple PAST, O|PST:O-Gender-AGR	Simple past: Gender and full O Agreement	4.91262714014825
+Verbal morphology|simple PAST, O|PST:NO-O-AGR;Verbal morphology|simple PAST, O|PST:O-AGR-FULL;Verbal morphology|simple PAST, O|PST:O-Gender-AGR	Simple past: Gender O Agreement	4.48579819724986
+Verbal morphology|simple PAST, O|PST:NO-O-AGR;Verbal morphology|simple PAST, O|PST:O-AGR-FULL;Verbal morphology|simple PAST, O|PST:O-Gender-AGR	Simple past: No O Agreement	0.273914079602398
+Verbal morphology|simple PAST, O|PST:NO-O-AGR;Verbal morphology|simple PAST, O|PST:O-AGR-FULL;Verbal morphology|simple PAST, O|PST:O-Gender-AGR	Simple Past: Syncretic and gender A Agreement	2.74846597465767
+Verbal morphology|simple PAST, O|PST:NO-O-AGR;Verbal morphology|simple PAST, O|PST:O-AGR-FULL;Verbal morphology|simple PAST, O|PST:O-Gender-AGR	Simple past: Syncretic O Agreement	2.17737201707038
+Word order|Adpositions|Post	No Postpositions	0.0344668331554828
+Word order|Adpositions|Post	Postpositions	0.0851044854723789
+Word order|Adpositions|Prep	No Prepositions	0.0609598195728189
+Word order|Adpositions|Prep	Prepositions	0.0371497773637813
+Word order|Clitic pronouns finite verb|2nd position;Word order|Clitic pronouns finite verb|OV;Word order|Clitic pronouns finite verb|VO	Clitic finite V: Category irrelevant	0.835180455106538
+Word order|Clitic pronouns finite verb|2nd position;Word order|Clitic pronouns finite verb|OV;Word order|Clitic pronouns finite verb|VO	Clitic finite V: OV	0.805792068127845
+Word order|Clitic pronouns finite verb|2nd position;Word order|Clitic pronouns finite verb|OV;Word order|Clitic pronouns finite verb|VO	Clitic finite V: V2	2.04835091048803
+Word order|Clitic pronouns finite verb|2nd position;Word order|Clitic pronouns finite verb|OV;Word order|Clitic pronouns finite verb|VO	Clitic finite V: VO	2.35581517355808
+Word order|Clitic pronouns finite verb|2nd position;Word order|Clitic pronouns finite verb|OV;Word order|Clitic pronouns finite verb|VO	Clitic finite V: VO and OV	2.96581501375354
+Word order|Clitic pronouns infinitive|2nd position;Word order|Clitic pronouns infinitive|OV;Word order|Clitic pronouns infinitive|VO	Clitic Infinitive V: Category irrelevant	0.338677720671109
+Word order|Clitic pronouns infinitive|2nd position;Word order|Clitic pronouns infinitive|OV;Word order|Clitic pronouns infinitive|VO	Clitic Infinitive V: OV	1.99994279197249
+Word order|Clitic pronouns infinitive|2nd position;Word order|Clitic pronouns infinitive|OV;Word order|Clitic pronouns infinitive|VO	Clitic Infinitive V: V2	2.02959147551678
+Word order|Clitic pronouns infinitive|2nd position;Word order|Clitic pronouns infinitive|OV;Word order|Clitic pronouns infinitive|VO	Clitic Infinitive V: VO	1.72941922666564
+Word order|Clitic pronouns infinitive|2nd position;Word order|Clitic pronouns infinitive|OV;Word order|Clitic pronouns infinitive|VO	Clitic Infinitive V: VO and OV	4.94351589334556
+Word order|Clitic pronouns participle|2nd position;Word order|Clitic pronouns participle|OV;Word order|Clitic pronouns participle|VO	Clitic Participle V: Category irrelevant	0.447474685373465
+Word order|Clitic pronouns participle|2nd position;Word order|Clitic pronouns participle|OV;Word order|Clitic pronouns participle|VO	Clitic Participle V: OV	1.88426541142233
+Word order|Clitic pronouns participle|2nd position;Word order|Clitic pronouns participle|OV;Word order|Clitic pronouns participle|VO	Clitic Participle V: V2	2.40029571359222
+Word order|Clitic pronouns participle|2nd position;Word order|Clitic pronouns participle|OV;Word order|Clitic pronouns participle|VO	Clitic Participle V: VO	1.97596949900392
+Word order|Clitic pronouns participle|2nd position;Word order|Clitic pronouns participle|OV;Word order|Clitic pronouns participle|VO	Clitic Participle V: VO and OV	4.98098500172877
+Word order|Infinitive|OV;Word order|Infinitive|VO	Infinitive: Category irrelevant	1.65532748573397
+Word order|Infinitive|OV;Word order|Infinitive|VO	Infinitive: OV	0.152812511812768
+Word order|Infinitive|OV;Word order|Infinitive|VO	Infinitive: OV and VO	2.69104871738966
+Word order|Infinitive|OV;Word order|Infinitive|VO	Infinitive: VO	0.339118535393179
+Word order|Main clauses|SOV;Word order|Main clauses|SVO;Word order|Main clauses|V2;Word order|Main clauses|VSO	Main clause: SOV	0.158224141853126
+Word order|Main clauses|SOV;Word order|Main clauses|SVO;Word order|Main clauses|V2;Word order|Main clauses|VSO	Main clause: SOV/SVO	4.931745361585
+Word order|Main clauses|SOV;Word order|Main clauses|SVO;Word order|Main clauses|V2;Word order|Main clauses|VSO	Main clause: SVO	0.381085650405617
+Word order|Main clauses|SOV;Word order|Main clauses|SVO;Word order|Main clauses|V2;Word order|Main clauses|VSO	Main clause: V2	0.788623806479453
+Word order|Main clauses|SOV;Word order|Main clauses|SVO;Word order|Main clauses|V2;Word order|Main clauses|VSO	Main clause: VSO	1.90268080757796
+Word order|Noun-Possessor|N-Poss;Word order|Noun-Possessor|Poss-N	Noun - Possessor	0.31380699491943
+Word order|Noun-Possessor|N-Poss;Word order|Noun-Possessor|Poss-N	Possessor - Noun	0.142584256437852
+Word order|Noun-Possessor|N-Poss;Word order|Noun-Possessor|Poss-N	Possessor - Noun and Noun - Possessor	1.61823363571385
+Word order|Noun-adjective|AN;Word order|Noun-adjective|NA	Adjective - Noun	0.110926064822424
+Word order|Noun-adjective|AN;Word order|Noun-adjective|NA	Adjective - Noun and Noun - Adjective	1.81151474283365
+Word order|Noun-adjective|AN;Word order|Noun-adjective|NA	Noun - Adjective	0.333513173948269
+Word order|Noun-relative clause|NRel;Word order|Noun-relative clause|RelN	NRel: Category irrelevant	4.04322933197606
+Word order|Noun-relative clause|NRel;Word order|Noun-relative clause|RelN	NRel: Noun - Relative	0.107186945495925
+Word order|Noun-relative clause|NRel;Word order|Noun-relative clause|RelN	NRel: Relative - Noun	0.592378857933214
+Word order|Noun-relative clause|NRel;Word order|Noun-relative clause|RelN	NRel: Relative - Noun and Noun - Relative	3.82963496280107
+Word order|Participle|OV;Word order|Participle|VO	O - Participle	0.118053639884383
+Word order|Participle|OV;Word order|Participle|VO	Participle - O	0.158745861008111
+Word order|Participle|OV;Word order|Participle|VO	Participle - O and O - Participle	0.726606059716727
+Word order|Subordinate clause|SOV;Word order|Subordinate clause|SVO;Word order|Subordinate clause|V2;Word order|Subordinate clause|VSO	Subordinate clause: SOV	0.191591863025803
+Word order|Subordinate clause|SOV;Word order|Subordinate clause|SVO;Word order|Subordinate clause|V2;Word order|Subordinate clause|VSO	Subordinate clause: SOV and SVO	4.78668702357799
+Word order|Subordinate clause|SOV;Word order|Subordinate clause|SVO;Word order|Subordinate clause|V2;Word order|Subordinate clause|VSO	Subordinate clause: SVO	0.246985620811157
+Word order|Subordinate clause|SOV;Word order|Subordinate clause|SVO;Word order|Subordinate clause|V2;Word order|Subordinate clause|VSO	Subordinate clause: V2	2.02095522507345
+Word order|Subordinate clause|SOV;Word order|Subordinate clause|SVO;Word order|Subordinate clause|V2;Word order|Subordinate clause|VSO	Subordinate clause: VSO	0.958990281817718
+Word order|WH-element|WH-V	No WH - Verb (initial or not)	0.267612064867128
+Word order|WH-element|WH-V	WH - Verb (initial or not)	0.253550369992694
+Word order|WH-element|WH-initial	No WH-initial (no inversion)	0.213351902793368
+Word order|WH-element|WH-initial	WH-initial (no inversion)	0.219347817379906

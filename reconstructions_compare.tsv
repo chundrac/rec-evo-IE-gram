@@ -1,0 +1,180 @@
+	values	probs.0	probs.dir	probs.unif
+ALIGNMENT.Compare.PROG.PAST.PAST_A.PROG_O.ALIGNMENT.Compare.PROG.PAST.PROG_A.PST_O.ALIGNMENT.Compare.PROG.PAST.PROG_So.PST_So	Present-Past: A marking in Present Progressive and Past	0.781233333333333	0.312233333333333	0.311433333333333
+ALIGNMENT.Compare.PROG.PAST.PAST_A.PROG_O.ALIGNMENT.Compare.PROG.PAST.PROG_A.PST_O.ALIGNMENT.Compare.PROG.PAST.PROG_So.PST_So	Present-Past: Active-ergative in Present Progressive and Past	0.100666666666667	0.2003	0.199933333333333
+ALIGNMENT.Compare.PROG.PAST.PAST_A.PROG_O.ALIGNMENT.Compare.PROG.PAST.PROG_A.PST_O.ALIGNMENT.Compare.PROG.PAST.PROG_So.PST_So	Present-Past: All systems	0.0912666666666667	0.251266666666667	0.251133333333333
+ALIGNMENT.Compare.PROG.PAST.PAST_A.PROG_O.ALIGNMENT.Compare.PROG.PAST.PROG_A.PST_O.ALIGNMENT.Compare.PROG.PAST.PROG_So.PST_So	Present-Past: No marking difference	0.0268333333333333	0.2362	0.2375
+ALIGNMENT.Noun..Present.Progressive.N.PROG..O.So..ALIGNMENT.Noun..Present.Progressive.N.PROG.A.O..ALIGNMENT.Noun..Present.Progressive.N.PROG.A.Sa..ALIGNMENT.Noun..Present.Progressive.N.PROG.Sa.So.	Noun, Present progressive: No marking	0.314866666666667	0.315333333333333	0.311533333333333
+ALIGNMENT.Noun..Present.Progressive.N.PROG..O.So..ALIGNMENT.Noun..Present.Progressive.N.PROG.A.O..ALIGNMENT.Noun..Present.Progressive.N.PROG.A.Sa..ALIGNMENT.Noun..Present.Progressive.N.PROG.Sa.So.	Noun, Present progressive: Nominative-accusative	0.6545	0.363333333333333	0.3606
+ALIGNMENT.Noun..Present.Progressive.N.PROG..O.So..ALIGNMENT.Noun..Present.Progressive.N.PROG.A.O..ALIGNMENT.Noun..Present.Progressive.N.PROG.A.Sa..ALIGNMENT.Noun..Present.Progressive.N.PROG.Sa.So.	Noun, Present progressive: Tripartite	0.0306333333333333	0.321333333333333	0.327866666666667
+ALIGNMENT.Noun..Simple.Past.N.PST..O.So..ALIGNMENT.Noun..Simple.Past.N.PST.A.O..ALIGNMENT.Noun..Simple.Past.N.PST.A.Sa..ALIGNMENT.Noun..Simple.Past.N.PST.Sa.So.	Noun, Simple past: Ergative	0.125166666666667	0.1894	0.186766666666667
+ALIGNMENT.Noun..Simple.Past.N.PST..O.So..ALIGNMENT.Noun..Simple.Past.N.PST.A.O..ALIGNMENT.Noun..Simple.Past.N.PST.A.Sa..ALIGNMENT.Noun..Simple.Past.N.PST.Sa.So.	Noun, Simple past: No marking	0.302766666666667	0.271766666666667	0.2735
+ALIGNMENT.Noun..Simple.Past.N.PST..O.So..ALIGNMENT.Noun..Simple.Past.N.PST.A.O..ALIGNMENT.Noun..Simple.Past.N.PST.A.Sa..ALIGNMENT.Noun..Simple.Past.N.PST.Sa.So.	Noun, Simple past: Nominative-accusative	0.537566666666667	0.297133333333333	0.301733333333333
+ALIGNMENT.Noun..Simple.Past.N.PST..O.So..ALIGNMENT.Noun..Simple.Past.N.PST.A.O..ALIGNMENT.Noun..Simple.Past.N.PST.A.Sa..ALIGNMENT.Noun..Simple.Past.N.PST.Sa.So.	Noun, Simple past: Tripartite	0.0345	0.2417	0.238
+ALIGNMENT.Pronoun..Present.Progressive.P.PROG..O.So..ALIGNMENT.Pronoun..Present.Progressive.P.PROG.A.O..ALIGNMENT.Pronoun..Present.Progressive.P.PROG.A.Sa..ALIGNMENT.Pronoun..Present.Progressive.P.PROG.Sa.So.	Pronoun, Present progressive: No marking	0.0922666666666667	0.463033333333333	0.4605
+ALIGNMENT.Pronoun..Present.Progressive.P.PROG..O.So..ALIGNMENT.Pronoun..Present.Progressive.P.PROG.A.O..ALIGNMENT.Pronoun..Present.Progressive.P.PROG.A.Sa..ALIGNMENT.Pronoun..Present.Progressive.P.PROG.Sa.So.	Pronoun, Present progressive: Nominative-accusative	0.907733333333333	0.536966666666667	0.5395
+ALIGNMENT.Pronoun..Simple.Past.P.PST..O.So..ALIGNMENT.Pronoun..Simple.Past.P.PST.A.O..ALIGNMENT.Pronoun..Simple.Past.P.PST.A.Sa..ALIGNMENT.Pronoun..Simple.Past.P.PST.Sa.So.	Pronoun, Simple past: Ergative	0.0821666666666667	0.142666666666667	0.1456
+ALIGNMENT.Pronoun..Simple.Past.P.PST..O.So..ALIGNMENT.Pronoun..Simple.Past.P.PST.A.O..ALIGNMENT.Pronoun..Simple.Past.P.PST.A.Sa..ALIGNMENT.Pronoun..Simple.Past.P.PST.Sa.So.	Pronoun, Simple past: No marking	0.0606	0.197166666666667	0.196566666666667
+ALIGNMENT.Pronoun..Simple.Past.P.PST..O.So..ALIGNMENT.Pronoun..Simple.Past.P.PST.A.O..ALIGNMENT.Pronoun..Simple.Past.P.PST.A.Sa..ALIGNMENT.Pronoun..Simple.Past.P.PST.Sa.So.	Pronoun, Simple past: Nominative-accusative	0.8307	0.446433333333333	0.447133333333333
+ALIGNMENT.Pronoun..Simple.Past.P.PST..O.So..ALIGNMENT.Pronoun..Simple.Past.P.PST.A.O..ALIGNMENT.Pronoun..Simple.Past.P.PST.A.Sa..ALIGNMENT.Pronoun..Simple.Past.P.PST.Sa.So.	Pronoun, Simple past: Tripartite	0.0265333333333333	0.213733333333333	0.2107
+ALIGNMENT.Reflexive.Pronoun.in.trans..Clause.REFL.ref.A	Reflexive not with Agent	0.0408	0.505233333333333	0.5051
+ALIGNMENT.Reflexive.Pronoun.in.trans..Clause.REFL.ref.A	Reflexive with Agent	0.9592	0.494766666666667	0.4949
+ALIGNMENT.Reflexive.Pronoun.in.trans..Clause.REFL.ref.O	Reflexive not with Object	0.9578	0.546766666666667	0.548433333333333
+ALIGNMENT.Reflexive.Pronoun.in.trans..Clause.REFL.ref.O	Reflexive with Object	0.0422	0.453233333333333	0.451566666666667
+ALIGNMENT.Verb..Present.Progressive.V.PROG..O.So..ALIGNMENT.Verb..Present.Progressive.V.PROG.A.O..ALIGNMENT.Verb..Present.Progressive.V.PROG.A.Sa..ALIGNMENT.Verb..Present.Progressive.V.PROG.Sa.So.	Verb, Present progressive: A=O/So=O	0.0246	0.2409	0.242
+ALIGNMENT.Verb..Present.Progressive.V.PROG..O.So..ALIGNMENT.Verb..Present.Progressive.V.PROG.A.O..ALIGNMENT.Verb..Present.Progressive.V.PROG.A.Sa..ALIGNMENT.Verb..Present.Progressive.V.PROG.Sa.So.	Verb, Present progressive: No marking	0.0605	0.244333333333333	0.243933333333333
+ALIGNMENT.Verb..Present.Progressive.V.PROG..O.So..ALIGNMENT.Verb..Present.Progressive.V.PROG.A.O..ALIGNMENT.Verb..Present.Progressive.V.PROG.A.Sa..ALIGNMENT.Verb..Present.Progressive.V.PROG.Sa.So.	Verb, Present progressive: Nominative-Accusative	0.8739	0.276066666666667	0.276766666666667
+ALIGNMENT.Verb..Present.Progressive.V.PROG..O.So..ALIGNMENT.Verb..Present.Progressive.V.PROG.A.O..ALIGNMENT.Verb..Present.Progressive.V.PROG.A.Sa..ALIGNMENT.Verb..Present.Progressive.V.PROG.Sa.So.	Verb, Present progressive: Tripartite	0.041	0.2387	0.2373
+ALIGNMENT.Verb..Simple.Past.V.PST..O.So..ALIGNMENT.Verb..Simple.Past.V.PST.A.O..ALIGNMENT.Verb..Simple.Past.V.PST.A.Sa..ALIGNMENT.Verb..Simple.Past.V.PST.Sa.So.	Verb, Simple past: Double oblique	0.0305333333333333	0.192482269503546	0.1944
+ALIGNMENT.Verb..Simple.Past.V.PST..O.So..ALIGNMENT.Verb..Simple.Past.V.PST.A.O..ALIGNMENT.Verb..Simple.Past.V.PST.A.Sa..ALIGNMENT.Verb..Simple.Past.V.PST.Sa.So.	Verb, Simple past: Ergative	0.105766666666667	0.168368794326241	0.174833333333333
+ALIGNMENT.Verb..Simple.Past.V.PST..O.So..ALIGNMENT.Verb..Simple.Past.V.PST.A.O..ALIGNMENT.Verb..Simple.Past.V.PST.A.Sa..ALIGNMENT.Verb..Simple.Past.V.PST.Sa.So.	Verb, Simple past: No marking	0.1053	0.202127659574468	0.197066666666667
+ALIGNMENT.Verb..Simple.Past.V.PST..O.So..ALIGNMENT.Verb..Simple.Past.V.PST.A.O..ALIGNMENT.Verb..Simple.Past.V.PST.A.Sa..ALIGNMENT.Verb..Simple.Past.V.PST.Sa.So.	Verb, Simple past: Nominative-accusative	0.6749	0.251276595744681	0.252133333333333
+ALIGNMENT.Verb..Simple.Past.V.PST..O.So..ALIGNMENT.Verb..Simple.Past.V.PST.A.O..ALIGNMENT.Verb..Simple.Past.V.PST.A.Sa..ALIGNMENT.Verb..Simple.Past.V.PST.Sa.So.	Verb, Simple past: Tripartite	0.0835	0.185744680851064	0.181566666666667
+Nominal.morphology.Case.marking.CASE.ADJ	Case on adjective	0.559133333333333	0.6177	0.608933333333333
+Nominal.morphology.Case.marking.CASE.ADJ	No case on adjective	0.440866666666667	0.3823	0.391066666666667
+Nominal.morphology.Case.marking.CASE.ART	Case on article	0.267033333333333	0.618166666666667	0.621166666666667
+Nominal.morphology.Case.marking.CASE.ART	No case on article	0.732966666666667	0.381833333333333	0.378833333333333
+Nominal.morphology.Case.marking.CASE.FIRST.Nominal.morphology.Case.marking.CASE.LAST	Case on last member of NP	0.0756666666666667	0.120766666666667	0.124266666666667
+Nominal.morphology.Case.marking.CASE.FIRST.Nominal.morphology.Case.marking.CASE.LAST	No rule of case on last/first member of NP	0.924333333333333	0.879233333333333	0.875733333333333
+Nominal.morphology.Case.marking.CASE.N	Case on noun	0.744866666666667	0.5175	0.521733333333333
+Nominal.morphology.Case.marking.CASE.N	No case on noun	0.255133333333333	0.4825	0.478266666666667
+Nominal.morphology.Definiteness.marking.ADJ.DEF	Definite suffix on adjective	0.0763666666666667	0.3013	0.3029
+Nominal.morphology.Definiteness.marking.ADJ.DEF	No definite suffix on adjective	0.923633333333333	0.6987	0.6971
+Nominal.morphology.Definiteness.marking.DEF.FIRST.Nominal.morphology.Definiteness.marking.DEF.LAST	No obligatory definiteness	0.857133333333333	0.556033333333333	0.5631
+Nominal.morphology.Definiteness.marking.DEF.FIRST.Nominal.morphology.Definiteness.marking.DEF.LAST	Obligatory definiteness on first member of NP	0.0755333333333333	0.0964333333333333	0.0977333333333333
+Nominal.morphology.Definiteness.marking.DEF.FIRST.Nominal.morphology.Definiteness.marking.DEF.LAST	Obligatory definiteness on last member of NP	0.0673333333333333	0.347533333333333	0.339166666666667
+Nominal.morphology.Definiteness.marking.DEF.ART	Definite article	0.0591	0.0866	0.0849333333333333
+Nominal.morphology.Definiteness.marking.DEF.ART	No definite article	0.9409	0.9134	0.915066666666667
+Nominal.morphology.Definiteness.marking.N.DEF	Definite suffix on noun	0.0879	0.196933333333333	0.194733333333333
+Nominal.morphology.Definiteness.marking.N.DEF	No definite suffix on noun	0.9121	0.803066666666667	0.805266666666667
+Nominal.morphology.Gender...Noun.class..5.GENDER	Fewer than five genders	0.9872	0.582133333333333	0.588266666666667
+Nominal.morphology.Gender...Noun.class..5.GENDER	More than five genders	0.0128	0.417866666666667	0.411733333333333
+Nominal.morphology.Gender...Noun.class.ANIM	No noun class for animates	0.913	0.591066666666667	0.588133333333333
+Nominal.morphology.Gender...Noun.class.ANIM	Noun class for animates	0.087	0.408933333333333	0.411866666666667
+Nominal.morphology.Gender...Noun.class.M.F	Masculine/feminine distinction	0.6837	0.596733333333333	0.597933333333333
+Nominal.morphology.Gender...Noun.class.M.F	No masculine/feminine distinction	0.3163	0.403266666666667	0.402066666666667
+Nominal.morphology.Gender...Noun.class.NEUTR	Neuter gender	0.854733333333333	0.9657	0.968266666666667
+Nominal.morphology.Gender...Noun.class.NEUTR	No neuter gender	0.145266666666667	0.0343	0.0317333333333333
+Nominal.morphology.Gender.agreement.PRED.ADJ	Gender on predicative adjective	0.6727	0.624233333333333	0.620333333333333
+Nominal.morphology.Gender.agreement.PRED.ADJ	No gender on predicative adjective	0.3273	0.375766666666667	0.379666666666667
+Nominal.morphology.Nominal.cases..7.Cases	More than 7 cases	0.416166666666667	0.950166666666667	0.948633333333333
+Nominal.morphology.Nominal.cases..7.Cases	Not more than 7 cases	0.583833333333333	0.0498333333333333	0.0513666666666667
+Nominal.morphology.Nominal.cases.AGG.CASE.NR	Agglutination for number	0.229233333333333	0.360666666666667	0.356233333333333
+Nominal.morphology.Nominal.cases.AGG.CASE.NR	No agglutination for number	0.770766666666667	0.639333333333333	0.643766666666667
+Nominal.morphology.Nominal.cases.AGGL.CASE	Agglutination for case	0.2181	0.4294	0.425766666666667
+Nominal.morphology.Nominal.cases.AGGL.CASE	No agglutination for case	0.7819	0.5706	0.574233333333333
+Nominal.morphology.Nominal.cases.DAT.Nominal.morphology.Nominal.cases.GEN.Nominal.morphology.Nominal.cases.GEN.DAT	Dative but no genitive	0.0698666666666667	0.250533333333333	0.2519
+Nominal.morphology.Nominal.cases.DAT.Nominal.morphology.Nominal.cases.GEN.Nominal.morphology.Nominal.cases.GEN.DAT	Genitive and dative	0.607866666666667	0.398766666666667	0.404566666666667
+Nominal.morphology.Nominal.cases.DAT.Nominal.morphology.Nominal.cases.GEN.Nominal.morphology.Nominal.cases.GEN.DAT	Genitive but no dative	0.138433333333333	0.234933333333333	0.233933333333333
+Nominal.morphology.Nominal.cases.DAT.Nominal.morphology.Nominal.cases.GEN.Nominal.morphology.Nominal.cases.GEN.DAT	No genitive or dative	0.183833333333333	0.115766666666667	0.1096
+Nominal.morphology.Nominal.cases.O.case	Case difference A and O	0.715433333333333	0.561466666666667	0.561233333333333
+Nominal.morphology.Nominal.cases.O.case	No case difference A and O	0.284566666666667	0.438533333333333	0.438766666666667
+Nominal.morphology.Nominal.cases.OBL.Cases	No peripheral cases	0.0172666666666667	0.0033	0.0034
+Nominal.morphology.Nominal.cases.OBL.Cases	Peripheral cases	0.982733333333333	0.9967	0.9966
+Nominal.morphology.Nominal.cases.VOC	No Vocative	0.114933333333333	0.0542333333333333	0.0531666666666667
+Nominal.morphology.Nominal.cases.VOC	Vocative	0.885066666666667	0.945766666666667	0.946833333333333
+Nominal.morphology.Preposition.agreement.PRON.AGR	Agreement on prepositions	0.0324	0.111233333333333	0.109066666666667
+Nominal.morphology.Preposition.agreement.PRON.AGR	No agreement on prepositions	0.9676	0.888766666666667	0.890933333333333
+Nominal.morphology.Pronominal.Cases..7.Cases	Fewer than 7 pronominal cases (pronouns)	0.969	0.543866666666667	0.546233333333333
+Nominal.morphology.Pronominal.Cases..7.Cases	More than 7 pronominal cases (pronouns)	0.031	0.456133333333333	0.453766666666667
+Nominal.morphology.Pronominal.Cases.AGGL.CASE	Agglutination for number (pronouns)	0.0814333333333333	0.189833333333333	0.184766666666667
+Nominal.morphology.Pronominal.Cases.AGGL.CASE	No agglutination for number (pronouns)	0.918566666666667	0.810166666666667	0.815233333333333
+Nominal.morphology.Pronominal.Cases.AGGL.CASE.NR	Agglutination for case (pronouns)	0.962466666666667	0.759833333333333	0.758733333333333
+Nominal.morphology.Pronominal.Cases.AGGL.CASE.NR	No agglutination for case (pronouns)	0.0375333333333333	0.240166666666667	0.241266666666667
+Nominal.morphology.Pronominal.Cases.A.O	Difference A and O (pronouns)	0.934366666666667	0.7429	0.741166666666667
+Nominal.morphology.Pronominal.Cases.A.O	No difference A and O (pronouns)	0.0656333333333333	0.2571	0.258833333333333
+Nominal.morphology.Pronominal.Cases.DAT.O	Difference, O and Dative (pronouns)	0.429066666666667	0.529433333333333	0.519233333333333
+Nominal.morphology.Pronominal.Cases.DAT.O	No difference O and Dative (pronouns)	0.570933333333333	0.470566666666667	0.480766666666667
+Nominal.morphology.Pronominal.Cases.OBL.Cases	No peripheral cases (pronouns)	0.0775	0.0128333333333333	0.0111666666666667
+Nominal.morphology.Pronominal.Cases.OBL.Cases	Peripheral cases (pronouns)	0.9225	0.987166666666667	0.988833333333333
+Nominal.morphology.Pronominal.Cases.VOC	No Vocative (pronouns)	0.985266666666667	0.5495	0.551
+Nominal.morphology.Pronominal.Cases.VOC	Vocative (pronouns)	0.0147333333333333	0.4505	0.449
+TENSE.Continous.present.Present.....	No synthetic Present progressive	0.078	0.382033333333333	0.378533333333333
+TENSE.Continous.present.Present.....	Synthetic Present progressive	0.922	0.617966666666667	0.621466666666667
+TENSE.Continous.present.Progressive.present	No Present progressive by auxiliary	0.676	0.5617	0.5589
+TENSE.Continous.present.Progressive.present	Present progressive by auxiliary	0.324	0.4383	0.4411
+TENSE.Future.FUT.AUX	Future by auxiliary	0.3716	0.425266666666667	0.427
+TENSE.Future.FUT.AUX	No Future by auxiliary	0.6284	0.574733333333333	0.573
+TENSE.Future.FUT.Participle	Future by participle	0.276	0.762366666666667	0.767666666666667
+TENSE.Future.FUT.Participle	No Future by participle	0.724	0.237633333333333	0.232333333333333
+TENSE.Future.FUT.Particle	Future by particle	0.106833333333333	0.367533333333333	0.368066666666667
+TENSE.Future.FUT.Particle	No Future by particle	0.893166666666667	0.632466666666667	0.631933333333333
+TENSE.Future.FUT.Synth	No synthetic Future	0.7305	0.661	0.661633333333333
+TENSE.Future.FUT.Synth	Synthetic Future	0.2695	0.339	0.338366666666667
+TENSE.Future.PERF.FUT	Future by perfect	0.0195333333333333	0.271666666666667	0.278533333333333
+TENSE.Future.PERF.FUT	No Future by perfect	0.980466666666667	0.728333333333333	0.721466666666667
+Verbal.morphology.present.progressive..A.PROG.A.AGR.FULL.Verbal.morphology.present.progressive..A.PROG.A.Gender.AGR.Verbal.morphology.present.progressive..A.PROG.NO.A.AGR	Present progressive: Full A Agreement	0.657366666666667	0.328787878787879	0.326966666666667
+Verbal.morphology.present.progressive..A.PROG.A.AGR.FULL.Verbal.morphology.present.progressive..A.PROG.A.Gender.AGR.Verbal.morphology.present.progressive..A.PROG.NO.A.AGR	Present progressive: Full and Gender A Agreement	0.0248666666666667	0.190454545454545	0.194166666666667
+Verbal.morphology.present.progressive..A.PROG.A.AGR.FULL.Verbal.morphology.present.progressive..A.PROG.A.Gender.AGR.Verbal.morphology.present.progressive..A.PROG.NO.A.AGR	Present progressive: Gender A Agreement	0.0407666666666667	0.189924242424242	0.1899
+Verbal.morphology.present.progressive..A.PROG.A.AGR.FULL.Verbal.morphology.present.progressive..A.PROG.A.Gender.AGR.Verbal.morphology.present.progressive..A.PROG.NO.A.AGR	Present progressive: No A Agreement	0.0646	0.183333333333333	0.178766666666667
+Verbal.morphology.present.progressive..A.PROG.A.AGR.FULL.Verbal.morphology.present.progressive..A.PROG.A.Gender.AGR.Verbal.morphology.present.progressive..A.PROG.NO.A.AGR	Present progressive: Syncretic A Agreement	0.2124	0.1075	0.1102
+Verbal.morphology.present.progressive..DAT.PROG.DAT.AGR.FULL.Verbal.morphology.present.progressive..DAT.PROG.DAT.Gender.AGR.Verbal.morphology.present.progressive..DAT.PROG.NO.DAT.AGR	Present progressive: Full Dative Agreement	0.0204333333333333	0.303533333333333	0.308366666666667
+Verbal.morphology.present.progressive..DAT.PROG.DAT.AGR.FULL.Verbal.morphology.present.progressive..DAT.PROG.DAT.Gender.AGR.Verbal.morphology.present.progressive..DAT.PROG.NO.DAT.AGR	Present progressive: No Dative Agreement	0.922433333333333	0.419566666666667	0.419866666666667
+Verbal.morphology.present.progressive..DAT.PROG.DAT.AGR.FULL.Verbal.morphology.present.progressive..DAT.PROG.DAT.Gender.AGR.Verbal.morphology.present.progressive..DAT.PROG.NO.DAT.AGR	Present progressive: Syncretic Dative Agreement	0.0571333333333333	0.2769	0.271766666666667
+Verbal.morphology.present.progressive..O.PROG.NO.O.AGR.Verbal.morphology.present.progressive..O.PROG.O.AGR.FULL.Verbal.morphology.present.progressive..O.PROG.O.Gender.AGR	Present progressive: Full O Agreement	0.0217666666666667	0.302	0.3081
+Verbal.morphology.present.progressive..O.PROG.NO.O.AGR.Verbal.morphology.present.progressive..O.PROG.O.AGR.FULL.Verbal.morphology.present.progressive..O.PROG.O.Gender.AGR	Present progressive: No O Agreement	0.920433333333333	0.417633333333333	0.415533333333333
+Verbal.morphology.present.progressive..O.PROG.NO.O.AGR.Verbal.morphology.present.progressive..O.PROG.O.AGR.FULL.Verbal.morphology.present.progressive..O.PROG.O.Gender.AGR	Present progressive: Syncretic O Agreement	0.0578	0.280366666666667	0.276366666666667
+Verbal.morphology.simple.PAST..A.PST.A.AGR.FULL.Verbal.morphology.simple.PAST..A.PST.A.Gender.AGR.Verbal.morphology.simple.PAST..A.PST.NO.A.AGR	Simple past: Full A Agreement	0.0313333333333333	0.201111111111111	0.203017543859649
+Verbal.morphology.simple.PAST..A.PST.A.AGR.FULL.Verbal.morphology.simple.PAST..A.PST.A.Gender.AGR.Verbal.morphology.simple.PAST..A.PST.NO.A.AGR	Simple past: Full and Gender A Agreement	0.270222222222222	0.197777777777778	0.199508771929825
+Verbal.morphology.simple.PAST..A.PST.A.AGR.FULL.Verbal.morphology.simple.PAST..A.PST.A.Gender.AGR.Verbal.morphology.simple.PAST..A.PST.NO.A.AGR	Simple past: Gender A Agreement	0.0487222222222222	0.19962962962963	0.200175438596491
+Verbal.morphology.simple.PAST..A.PST.A.AGR.FULL.Verbal.morphology.simple.PAST..A.PST.A.Gender.AGR.Verbal.morphology.simple.PAST..A.PST.NO.A.AGR	Simple past: No A Agreement	0.0558888888888889	0.194722222222222	0.198666666666667
+Verbal.morphology.simple.PAST..A.PST.A.AGR.FULL.Verbal.morphology.simple.PAST..A.PST.A.Gender.AGR.Verbal.morphology.simple.PAST..A.PST.NO.A.AGR	Simple past: Syncretic A Agreement	0.207333333333333	0.206759259259259	0.198631578947368
+Verbal.morphology.simple.PAST..A.PST.A.AGR.FULL.Verbal.morphology.simple.PAST..A.PST.A.Gender.AGR.Verbal.morphology.simple.PAST..A.PST.NO.A.AGR	Simple past: Full A Agreement	0.3865	0.201111111111111	0.203017543859649
+Verbal.morphology.simple.PAST..DAT.PST.DAT.AGR.FULL.Verbal.morphology.simple.PAST..DAT.PST.DAT.Gender.AGR.Verbal.morphology.simple.PAST..DAT.PST.NO.DAT.AGR	Simple past: Full Dative Agreement	0.0221	0.239566666666667	0.237333333333333
+Verbal.morphology.simple.PAST..DAT.PST.DAT.AGR.FULL.Verbal.morphology.simple.PAST..DAT.PST.DAT.Gender.AGR.Verbal.morphology.simple.PAST..DAT.PST.NO.DAT.AGR	Simple past: Gender Dative Agreement	0.0205333333333333	0.2367	0.238366666666667
+Verbal.morphology.simple.PAST..DAT.PST.DAT.AGR.FULL.Verbal.morphology.simple.PAST..DAT.PST.DAT.Gender.AGR.Verbal.morphology.simple.PAST..DAT.PST.NO.DAT.AGR	Simple past: No Dative Agreement	0.8931	0.301833333333333	0.302666666666667
+Verbal.morphology.simple.PAST..DAT.PST.DAT.AGR.FULL.Verbal.morphology.simple.PAST..DAT.PST.DAT.Gender.AGR.Verbal.morphology.simple.PAST..DAT.PST.NO.DAT.AGR	Simple past: Syncretic Dative Agreement	0.0642666666666667	0.2219	0.221633333333333
+Verbal.morphology.simple.PAST..O.PST.NO.O.AGR.Verbal.morphology.simple.PAST..O.PST.O.AGR.FULL.Verbal.morphology.simple.PAST..O.PST.O.Gender.AGR	Simple past: Gender and full O Agreement	0.0278333333333333	0.189166666666667	0.182833333333333
+Verbal.morphology.simple.PAST..O.PST.NO.O.AGR.Verbal.morphology.simple.PAST..O.PST.O.AGR.FULL.Verbal.morphology.simple.PAST..O.PST.O.Gender.AGR	Simple past: Gender O Agreement	0.0363	0.184513888888889	0.1827
+Verbal.morphology.simple.PAST..O.PST.NO.O.AGR.Verbal.morphology.simple.PAST..O.PST.O.AGR.FULL.Verbal.morphology.simple.PAST..O.PST.O.Gender.AGR	Simple past: No O Agreement	0.785466666666667	0.288958333333333	0.296066666666667
+Verbal.morphology.simple.PAST..O.PST.NO.O.AGR.Verbal.morphology.simple.PAST..O.PST.O.AGR.FULL.Verbal.morphology.simple.PAST..O.PST.O.Gender.AGR	Simple Past: Syncretic and gender A Agreement	0.0673333333333333	0.172222222222222	0.170633333333333
+Verbal.morphology.simple.PAST..O.PST.NO.O.AGR.Verbal.morphology.simple.PAST..O.PST.O.AGR.FULL.Verbal.morphology.simple.PAST..O.PST.O.Gender.AGR	Simple past: Syncretic O Agreement	0.0830666666666667	0.165138888888889	0.167766666666667
+Word.order.Adpositions.Post	No Postpositions	0.150566666666667	0.0518666666666667	0.0501
+Word.order.Adpositions.Post	Postpositions	0.849433333333333	0.948133333333333	0.9499
+Word.order.Adpositions.Prep	No Prepositions	0.7382	0.819333333333333	0.816566666666667
+Word.order.Adpositions.Prep	Prepositions	0.2618	0.180666666666667	0.183433333333333
+Word.order.Clitic.pronouns.finite.verb.2nd.position.Word.order.Clitic.pronouns.finite.verb.OV.Word.order.Clitic.pronouns.finite.verb.VO	Clitic finite V: Category irrelevant	0.4424	0.170793650793651	0.167733333333333
+Word.order.Clitic.pronouns.finite.verb.2nd.position.Word.order.Clitic.pronouns.finite.verb.OV.Word.order.Clitic.pronouns.finite.verb.VO	Clitic finite V: OV	0.141233333333333	0.164761904761905	0.164233333333333
+Word.order.Clitic.pronouns.finite.verb.2nd.position.Word.order.Clitic.pronouns.finite.verb.OV.Word.order.Clitic.pronouns.finite.verb.VO	Clitic finite V: V2	0.1613	0.269444444444444	0.270333333333333
+Word.order.Clitic.pronouns.finite.verb.2nd.position.Word.order.Clitic.pronouns.finite.verb.OV.Word.order.Clitic.pronouns.finite.verb.VO	Clitic finite V: VO	0.181233333333333	0.182698412698413	0.1859
+Word.order.Clitic.pronouns.finite.verb.2nd.position.Word.order.Clitic.pronouns.finite.verb.OV.Word.order.Clitic.pronouns.finite.verb.VO	Clitic finite V: VO and OV	0.0738333333333333	0.212301587301587	0.2118
+Word.order.Clitic.pronouns.infinitive.2nd.position.Word.order.Clitic.pronouns.infinitive.OV.Word.order.Clitic.pronouns.infinitive.VO	Clitic Infinitive V: Category irrelevant	0.4337	0.13739837398374	0.136033333333333
+Word.order.Clitic.pronouns.infinitive.2nd.position.Word.order.Clitic.pronouns.infinitive.OV.Word.order.Clitic.pronouns.infinitive.VO	Clitic Infinitive V: OV	0.1894	0.208455284552846	0.205766666666667
+Word.order.Clitic.pronouns.infinitive.2nd.position.Word.order.Clitic.pronouns.infinitive.OV.Word.order.Clitic.pronouns.infinitive.VO	Clitic Infinitive V: V2	0.161933333333333	0.249268292682927	0.254133333333333
+Word.order.Clitic.pronouns.infinitive.2nd.position.Word.order.Clitic.pronouns.infinitive.OV.Word.order.Clitic.pronouns.infinitive.VO	Clitic Infinitive V: VO	0.1693	0.204878048780488	0.209533333333333
+Word.order.Clitic.pronouns.infinitive.2nd.position.Word.order.Clitic.pronouns.infinitive.OV.Word.order.Clitic.pronouns.infinitive.VO	Clitic Infinitive V: VO and OV	0.0456666666666667	0.2	0.194533333333333
+Word.order.Clitic.pronouns.participle.2nd.position.Word.order.Clitic.pronouns.participle.OV.Word.order.Clitic.pronouns.participle.VO	Clitic Participle V: Category irrelevant	0.418466666666667	0.140238095238095	0.1491
+Word.order.Clitic.pronouns.participle.2nd.position.Word.order.Clitic.pronouns.participle.OV.Word.order.Clitic.pronouns.participle.VO	Clitic Participle V: OV	0.197833333333333	0.201190476190476	0.196266666666667
+Word.order.Clitic.pronouns.participle.2nd.position.Word.order.Clitic.pronouns.participle.OV.Word.order.Clitic.pronouns.participle.VO	Clitic Participle V: V2	0.148366666666667	0.240714285714286	0.2366
+Word.order.Clitic.pronouns.participle.2nd.position.Word.order.Clitic.pronouns.participle.OV.Word.order.Clitic.pronouns.participle.VO	Clitic Participle V: VO	0.181066666666667	0.207857142857143	0.214366666666667
+Word.order.Clitic.pronouns.participle.2nd.position.Word.order.Clitic.pronouns.participle.OV.Word.order.Clitic.pronouns.participle.VO	Clitic Participle V: VO and OV	0.0542666666666667	0.21	0.203666666666667
+Word.order.Infinitive.OV.Word.order.Infinitive.VO	Infinitive: Category irrelevant	0.0633666666666667	0.2619	0.261566666666667
+Word.order.Infinitive.OV.Word.order.Infinitive.VO	Infinitive: OV	0.805533333333333	0.4049	0.404066666666667
+Word.order.Infinitive.OV.Word.order.Infinitive.VO	Infinitive: OV and VO	0.0389666666666667	0.245866666666667	0.248
+Word.order.Infinitive.OV.Word.order.Infinitive.VO	Infinitive: VO	0.0921333333333333	0.0873333333333333	0.0863666666666667
+Word.order.Main.clauses.SOV.Word.order.Main.clauses.SVO.Word.order.Main.clauses.V2.Word.order.Main.clauses.VSO	Main clause: SOV	0.904566666666667	0.640055555555556	0.6382
+Word.order.Main.clauses.SOV.Word.order.Main.clauses.SVO.Word.order.Main.clauses.V2.Word.order.Main.clauses.VSO	Main clause: SOV/SVO	0.00976666666666667	0.134111111111111	0.137333333333333
+Word.order.Main.clauses.SOV.Word.order.Main.clauses.SVO.Word.order.Main.clauses.V2.Word.order.Main.clauses.VSO	Main clause: SVO	0.0342	0.0279444444444444	0.0294333333333333
+Word.order.Main.clauses.SOV.Word.order.Main.clauses.SVO.Word.order.Main.clauses.V2.Word.order.Main.clauses.VSO	Main clause: V2	0.0302	0.0580555555555556	0.0561
+Word.order.Main.clauses.SOV.Word.order.Main.clauses.SVO.Word.order.Main.clauses.V2.Word.order.Main.clauses.VSO	Main clause: VSO	0.0212666666666667	0.139833333333333	0.138933333333333
+Word.order.Noun.Possessor.N.Poss.Word.order.Noun.Possessor.Poss.N	Noun - Possessor	0.346866666666667	0.337533333333333	0.336833333333333
+Word.order.Noun.Possessor.N.Poss.Word.order.Noun.Possessor.Poss.N	Possessor - Noun	0.5851	0.285266666666667	0.288766666666667
+Word.order.Noun.Possessor.N.Poss.Word.order.Noun.Possessor.Poss.N	Possessor - Noun and Noun - Possessor	0.0680333333333333	0.3772	0.3744
+Word.order.Noun.adjective.AN.Word.order.Noun.adjective.NA	Adjective - Noun	0.869866666666667	0.5358	0.538433333333333
+Word.order.Noun.adjective.AN.Word.order.Noun.adjective.NA	Adjective - Noun and Noun - Adjective	0.0538	0.306233333333333	0.3058
+Word.order.Noun.adjective.AN.Word.order.Noun.adjective.NA	Noun - Adjective	0.0763333333333333	0.157966666666667	0.155766666666667
+Word.order.Noun.relative.clause.NRel.Word.order.Noun.relative.clause.RelN	NRel: Category irrelevant	0.0404333333333333	0.28	0.282
+Word.order.Noun.relative.clause.NRel.Word.order.Noun.relative.clause.RelN	NRel: Noun - Relative	0.6271	0.1182	0.113266666666667
+Word.order.Noun.relative.clause.NRel.Word.order.Noun.relative.clause.RelN	NRel: Relative - Noun	0.291733333333333	0.316133333333333	0.3156
+Word.order.Noun.relative.clause.NRel.Word.order.Noun.relative.clause.RelN	NRel: Relative - Noun and Noun - Relative	0.0407333333333333	0.285666666666667	0.289133333333333
+Word.order.Participle.OV.Word.order.Participle.VO	O - Participle	0.8936	0.619333333333333	0.618233333333333
+Word.order.Participle.OV.Word.order.Participle.VO	Participle - O	0.0499	0.0539	0.0543333333333333
+Word.order.Participle.OV.Word.order.Participle.VO	Participle - O and O - Participle	0.0565	0.326766666666667	0.327433333333333
+Word.order.Subordinate.clause.SOV.Word.order.Subordinate.clause.SVO.Word.order.Subordinate.clause.V2.Word.order.Subordinate.clause.VSO	Subordinate clause: SOV	0.8992	0.558277777777778	0.560433333333333
+Word.order.Subordinate.clause.SOV.Word.order.Subordinate.clause.SVO.Word.order.Subordinate.clause.V2.Word.order.Subordinate.clause.VSO	Subordinate clause: SOV and SVO	0.0121333333333333	0.162	0.1602
+Word.order.Subordinate.clause.SOV.Word.order.Subordinate.clause.SVO.Word.order.Subordinate.clause.V2.Word.order.Subordinate.clause.VSO	Subordinate clause: SVO	0.0373333333333333	0.0249444444444444	0.0269333333333333
+Word.order.Subordinate.clause.SOV.Word.order.Subordinate.clause.SVO.Word.order.Subordinate.clause.V2.Word.order.Subordinate.clause.VSO	Subordinate clause: V2	0.0138	0.0916666666666667	0.0891333333333333
+Word.order.Subordinate.clause.SOV.Word.order.Subordinate.clause.SVO.Word.order.Subordinate.clause.V2.Word.order.Subordinate.clause.VSO	Subordinate clause: VSO	0.0375333333333333	0.163111111111111	0.1633
+Word.order.WH.element.WH.V	No WH - Verb (initial or not)	0.778233333333333	0.801133333333333	0.7997
+Word.order.WH.element.WH.V	WH - Verb (initial or not)	0.221766666666667	0.198866666666667	0.2003
+Word.order.WH.element.WH.initial	No WH-initial (no inversion)	0.212033333333333	0.177766666666667	0.1764
+Word.order.WH.element.WH.initial	WH-initial (no inversion)	0.787966666666667	0.822233333333333	0.8236

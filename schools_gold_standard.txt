@@ -1,0 +1,239 @@
+Present-Past: No marking difference	0	0	0
+Present-Past: A marking in Present Progressive and Past	1	1	1
+Present-Past: Active-ergative in Present Progressive and Past	0	0	0
+Present-Past: All systems	0	0	0
+
+Noun, Present progressive: Tripartite	0	0	0
+Noun, Present progressive: Nominative-accusative	1	0	0
+Noun, Present progressive: No marking	0	1	0
+
+Noun, Simple past: Tripartite	0	0	0
+Noun, Simple past: Nominative-accusative	1	0	0
+Noun, Simple past: Ergative	0	0	0
+Noun, Simple past: No marking	0	1	0
+
+Pronoun, Present progressive: Nominative-accusative	1	NA	0
+Pronoun, Present progressive: No marking	0	NA	0
+
+Pronoun, Simple past: Tripartite	0	NA	0
+Pronoun, Simple past: Nominative-accusative	1	NA	0
+Pronoun, Simple past: Ergative	0	NA	0
+Pronoun, Simple past: No marking	0	NA	0
+
+Reflexive not with Agent	0	NA	NA
+Reflexive with Agent	1	NA	NA
+
+Reflexive not with Object	1	NA	NA
+Reflexive with Object	0	NA	NA
+
+Verb, Present progressive: Tripartite	0	0	0
+Verb, Present progressive: Nominative-Accusative	1	0	0
+Verb, Present progressive: No marking	0	1	0
+
+Verb, Simple past: Tripartite	0	0	0
+Verb, Simple past: Nominative-accusative	1	0	0
+Verb, Simple past: Ergative	0	0	0
+Verb, Simple past: No marking	0	1	0
+
+No case on adjective	0	1	0
+Case on adjective	1	0	1
+
+No case on article	1	1	1
+Case on article	0	0	0
+
+No rule of case on last/first member of NP	1	1	0
+Case on last member of NP	0	0	1
+
+No case on noun	0	1	0
+Case on noun	1	0	1
+
+No definite suffix on adjective	1	1	1
+Definite suffix on adjective	0	0	0
+
+No obligatory definiteness	1	0	1
+Obligatory definiteness on last member of NP	0	1	0
+Obligatory definiteness on first member of NP	0	0	0
+
+No definite article	1	0	1
+Definite article	0	1	0
+
+No definite suffix on noun	1	1	1
+Definite suffix on noun	0	0	0
+
+Fewer than five genders	1	1	1
+More than five genders	0	0	0
+
+No noun class for animates	0	0	0
+Noun class for animates	1	1	1
+
+No masculine/feminine distinction	0	1	1
+Masculine/feminine distinction	1	0	0
+
+No neuter gender	0	0	0
+Neuter gender	1	1	1
+
+No gender on predicative adjective	0	NA	0
+Gender on predicative adjective	1	NA	1
+
+Not more than 7 cases	0	0	0
+More than 7 cases	1	1	1
+
+No agglutination for number	1	1	0
+Agglutination for number	0	0	1
+
+No agglutination for case	1	1	0
+Agglutination for case	0	0	1
+
+No genitive or dative	0	1	0
+Genitive but no dative	0	0	0
+Genitive but no dative	0	0	0
+Dative but no genitive	0	0	0
+Genitive and dative	1	0	0
+
+No case difference A and O	0	1	0
+Case difference A and O	1	0	1
+
+No peripheral cases	0	1	1
+Peripheral cases	1	0	0
+
+No Vocative	0	1	NA
+Vocative	1	0	NA
+
+No agreement on prepositions	1	NA	1
+Agreement on prepositions	0	NA	0
+
+Fewer than 7 pronominal cases (pronouns)	1	1	1
+More than 7 pronominal cases (pronouns)	0	0	0
+
+No agglutination for number (pronouns)	1	1	NA
+Agglutination for number (pronouns)	0	0	NA
+
+Agglutination for case (pronouns)	0	0	NA
+No agglutination for case (pronouns)	1	1	NA
+
+No difference A and O (pronouns)	0	1	0
+Difference A and O (pronouns)	1	0	1
+
+No difference O and Dative (pronouns)	0	1	1
+Difference, O and Dative (pronouns)	1	0	0
+
+No peripheral cases (pronouns)	0	1	1
+Peripheral cases (pronouns)	1	0	0
+
+No Vocative (pronouns)	1	1	NA
+Vocative (pronouns)	0	0	NA
+
+No synthetic Present progressive	1	1	1
+Synthetic Present progressive	0	0	0
+
+No Present progressive by auxiliary	1	1	1
+Present progressive by auxiliary	0	0	0
+
+No Future by auxiliary	1	1	1
+Future by auxiliary	0	0	0
+
+No Future by participle	1	1	1
+Future by participle	0	0	0
+
+No Future by particle	1	1	1
+Future by particle	0	0	0
+
+No synthetic Future	1	1	1
+Synthetic Future	0	0	0
+
+No Future by perfect	1	1	1
+Future by perfect	0	0	0
+
+Present progressive: Syncretic A Agreement	0	1	0
+Present progressive: No A Agreement	0	0	0
+Present progressive: Gender A Agreement	0	0	0
+Present progressive: Full A Agreement	1	0	1
+Present progressive: Full and Gender A Agreement	0	0	0
+
+Present progressive: Syncretic Dative Agreement	0	NA	NA
+Present progressive: No Dative Agreement	1	NA	NA
+Present progressive: Full Dative Agreement	0	NA	NA
+
+Present progressive: Syncretic O Agreement	0	NA	1
+Present progressive: Full O Agreement	0	NA	0
+Present progressive: No O Agreement	1	NA	0
+
+Simple past: Syncretic A Agreement	0	1	1
+Simple past: No A Agreement	0	0	0
+Simple past: Gender A Agreement	0	0	0
+Simple past: Full A Agreement	1	0	0
+Simple past: Full and Gender A Agreement	0	0	0
+
+Simple past: Syncretic Dative Agreement	0	NA	0
+Simple past: No Dative Agreement	1	NA	1
+Simple past: Gender Dative Agreement	0	NA	0
+Simple past: Full Dative Agreement	0	NA	0
+
+Simple past: Syncretic O Agreement	0	NA	1
+Simple past: Gender O Agreement	0	NA	0
+Simple past: Gender and full O Agreement	0	NA	0
+Simple past: No O Agreement	1	NA	0
+
+No Postpositions	0	0	0
+Postpositions	1	1	1
+
+No Prepositions	0	0	0
+Prepositions	1	0	0
+
+Clitic finite V: Category irrelevant	0	0	0
+Clitic finite V: VO	0	0	0
+Clitic finite V: OV	0	0	1
+Clitic finite V: VO and OV	0	0	0
+Clitic finite V: V2	0	0	0
+
+Clitic Infinitive V: Category irrelevant	NA	NA	NA
+Clitic Infinitive V: VO	NA	NA	NA
+Clitic Infinitive V: OV	NA	NA	NA
+Clitic Infinitive V: VO and OV	NA	NA	NA
+Clitic Infinitive V: V2	NA	NA	NA
+
+Clitic Participle V: Category irrelevant	NA	NA	NA
+Clitic Participle V: VO	NA	NA	NA
+Clitic Participle V: OV	NA	NA	NA
+Clitic Participle V: VO and OV	NA	NA	NA
+Clitic Participle V: V2	NA	NA	NA
+
+Infinitive: Category irrelevant	0	0	0
+Infinitive: VO	0	1	0
+Infinitive: OV	1	1	1
+Infinitive: OV and VO	0	1	0
+
+Main clause: VSO	0	1	0
+Main clause: V2	0	0	0
+Main clause: SVO	0	1	0
+Main clause: SOV	1	1	1
+Main clause: SOV/SVO	0	1	0
+
+Possessor - Noun	1	1	1
+Noun - Possessor	0	1	0
+Possessor - Noun and Noun - Possessor	0	1	0
+
+Noun - Adjective	0	1	0
+Adjective - Noun	1	1	1
+Adjective - Noun and Noun - Adjective	0	1	0
+
+NRel: Category irrelevant	0	0	0
+NRel: Relative - Noun	1	1	1
+NRel: Noun - Relative	0	1	0
+NRel: Relative - Noun and Noun - Relative	0	1	0
+
+Participle - O	0	1	0
+O - Participle	1	1	1
+Participle - O and O - Participle	0	1	0
+
+Subordinate clause: VSO	0	1	0
+Subordinate clause: V2	0	0	0
+Subordinate clause: SVO	0	1	0
+Subordinate clause: SOV	1	1	1
+Subordinate clause: SOV and SVO	0	1	0
+
+No WH - Verb (initial or not)	1	NA	NA
+WH - Verb (initial or not)	0	NA	NA
+
+No WH-initial (no inversion)	0	NA	NA
+WH-initial (no inversion)	1	NA	NA

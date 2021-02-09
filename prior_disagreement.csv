@@ -1,0 +1,12 @@
+sf	sp	uf	up	df	dp
+Clitic finite V: Category irrelevant	0.4424	Clitic finite V: V2	0.270333333333333	Clitic finite V: V2	0.270333333333333
+Clitic Infinitive V: Category irrelevant	0.4337	Clitic Infinitive V: V2	0.254133333333333	Clitic Infinitive V: V2	0.254133333333333
+Clitic Participle V: Category irrelevant	0.418466666666667	Clitic Participle V: V2	0.2366	Clitic Participle V: V2	0.2366
+No case on article	0.732966666666667	Case on article	0.621166666666667	Case on article	0.621166666666667
+No difference O and Dative (pronouns)	0.570933333333333	Difference, O and Dative (pronouns)	0.519233333333333	Difference, O and Dative (pronouns)	0.519233333333333
+No Future by participle	0.724	Future by participle	0.767666666666667	Future by participle	0.767666666666667
+Not more than 7 cases	0.583833333333333	More than 7 cases	0.948633333333333	More than 7 cases	0.948633333333333
+NRel: Noun - Relative	0.6271	NRel: Relative - Noun	0.3156	NRel: Relative - Noun	0.3156
+Possessor - Noun	0.5851	Possessor - Noun and Noun - Possessor	0.3744	Possessor - Noun and Noun - Possessor	0.3744
+Reflexive with Agent	0.9592	Reflexive not with Agent	0.5051	Reflexive not with Agent	0.5051
+Simple past: Full A Agreement	NA	NA	NA	Simple past: Syncretic A Agreement	0.198631578947368

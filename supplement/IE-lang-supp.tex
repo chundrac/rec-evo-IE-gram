@@ -1,0 +1,367 @@
+\documentclass[12pt]{article}
+
+\usepackage{amssymb,amsmath,amsthm}
+\usepackage[toc,page]{appendix}
+\usepackage{authblk}
+
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fontspec}
+\usepackage{fullpage}
+%\usepackage[utf8]{inputenc}
+\usepackage{textcomp} % provide euro and other symbols
+% Use upquote if available, for straight quotes in verbatim environments
+\usepackage{microtype}
+\usepackage{longtable,booktabs}
+\usepackage{bookmark}
+%\usepackage{XCharter}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{tikz}
+\usepackage{adjustbox}
+\usepackage{hyperref}
+
+\def\citeapos#1{\citeauthor{#1}'s (\citeyear{#1})}
+\usepackage{natbib}
+\bibpunct[:]{(}{)}{;}{a}{}{,}
+
+
+
+\title{Supplementary material for ``Reconstructing the evolution of Indo-European grammar''}
+
+\author[a]{Gerd Carling}
+\affil[a]{Centre for Languages and Literature\\
+Lund University}
+\author[b]{Chundra Cathcart}
+\affil[b]{Department of Comparative Language Science\\
+University of Zurich}
+
+\date{}
+\begin{document}
+
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+
+\maketitle
+
+%\onehalfspacing
+
+\begin{appendices}
+
+Here, we describe the process used to generate the tree sample used for inference in this paper, as well as the details of the inference process used to infer evolutionary transition rates and estimate the probabilities of typological states at unobserved nodes in our tree such as the root (corresponding to Proto-Indo-European). All code is available at \url{https://github.com/chundrac/rec-evo-IE-gram} and \url{https://zenodo.org/record/4275010}.
+
+\section{Tree Sample}
+
+We assume a fixed topology (i.e. branching structure) for the Indo-European languages, informed by the comparative-historical \emph{communis opinio}, as well as recent work on computational phylogenetic methods \citep[cf.][]{Chang2015}, but incorporate uncertainty over branch lengths in the tree in the manner described below. For each tip (i.e. a vertex of the tree where data are observed, or an attested language) or node (i.e. a vertex of the tree where data are not observed, or a proto-language) in tree topology, we establish an upper and lower bound for the date of attestation each language or proto-language, in years before present; in the case of proto-languages, these dates are informed by existing computational phylogenetic work \citep[e.g.][]{Bouckaert2012,Chang2015} and carefully selected termini post quem and termini ante quem based on the historical and archaeological record. The following process is carried out in order to generate a tree with stochastically sampled branch lengths:
+
+Starting at the root, we sample a value 
+$\text{date}(\text{root}) \sim \text{Uniform}(\text{lower}(\text{root}),\text{upper}(\text{root}))$, where $\text{lower}$ and $\text{upper}$ refer to the lower and upper bounds established for possible dates of attestation for the root. Then subsequently, moving in pre-traversal order (i.e. from the root of the tree to the tips), we sample a date for each remaining node from the uniform distribution, as follows:
+
+$$
+\text{date}(\text{node}) \sim \text{Uniform}(\text{max}(\text{date}(\text{parent}),\text{lower}(\text{node})),\text{upper}(\text{node}))
+$$
+
+The above sampling statement ensures that all branch lengths are positive. From these sampled dates, we compute the length of the branch between a node $n$ and its daughter $d$, $b(n,d)$, as follows:
+
+$$
+b(nd) = \text{date}(n) - \text{date}(d)
+$$
+
+This process is carried out $10000$ times, yielding a tree sample. We scale our tree sample's branch lengths by dividing by $1000$.
+
+\section{Inference of Evolutionary Rates}
+
+For a given categorical feature with $S$ states, there are $S(S-1)$ possible transition types between different states. We assume that transitions between two different states follow a Continuous Time Markov process, parameterized by $S(S-1)$ transition rates, which we write as $\mathbf{R}$. We place a $\text{Gamma}(1,1)$ prior over each transition rate in $\mathbf{R}$; the mean of this distribution is $1$, corresponding to roughly one change per millennium. The posterior probability of the rates  $\mathbf{R}$ can be approximated as follows over an entire tree sample:
+
+$$
+P(\mathbf{R}|D,\mathbf{T}) \propto P(D,\mathbf{R}|\mathbf{T}) = \sum_{T \in \mathbf{T}} P(D,\mathbf{R}|T) P(T|\boldsymbol T) \approx \frac{1}{|\boldsymbol T|} \sum_{T \in \boldsymbol T} P(D|T,\mathbf{R}) P(\mathbf{R})
+$$
+
+$D$ refers to the observed data; \textbf{\emph{T}} denotes the tree sample, and \emph{T} a single tree in the sample. The likelihood of a given tree and set of rates under the observed data, $P(D,\mathbf{R}|\mathbf{T})$, can be efficiently computed according to Felsenstein's Pruning Algorithm \citep{Felsenstein1981}. Moving in post-traversal order (i.e. from the tips of the tree toward the root), the Pruning Algorithm calculates the likelihood of a given state $s$ at an internal (i.e. non-tip) node $n$ as follows:
+
+$$
+\mathcal{L}(n=s) = \prod_{d \in d(n)} \left ( \sum_{r \in S} \mathcal{L} (d=r) P_{sr}(b(n,d);\mathbf{R}) \right )
+$$
+
+Above, $d(n)$ denotes the daughters of node \emph{n}; $b(a,b)$ denotes the length of the branch connecting nodes $a$ and $b$ (i.e. the displacement in time between two languages); 
+$P_{sr}(t;\mathbf{R})$ denotes the probability of a transition from state $s$ to state $r$ over a time period of length $t$, given the rates \textbf{\emph{R}}. If data are attested at $n$, $\mathcal{L}(n=s)$ is either 1 or 0, depending on whether the state attested is $s$. If data are missing, $\mathcal{L}(n=s)$ is set to 1 for $s \in S$. The overall likelihood of the tree is equal to the following:
+
+$$
+P(D|\mathbf{R},T) = \sum_{s \in S} \pi(s) \mathcal{L}(\text{root}=s)
+$$
+
+Above, $\pi(s)$ denotes the prior probability of state $s$, which we take to be the stationary probability of $s$ under the continuous-time Markov process, following a number of works from the biological literature \citep{Huelsenbeck2003,Nielsen2002,Felsenstein2004}; 
+see Appendix \ref{root.prior}. 
+
+We use the No U-Turn Sampler of RStan \citep{Carpenteretal2017}  to infer the posterior distributions over transition rates between different states for each categorical feature in our data set. Inference is run over 4 chains for 2000 iterations, with the first half of samples discarded as burn-in. This process is carried out for each tree in the tree sample, and posterior samples are combined for each feature.
+
+\section{Ancestral State Reconstruction}
+
+For each categorical feature, we estimate the distribution over possible states or values at the root of the tree (i.e. for Proto-Indo-European) using samples from the posterior distribution of $\mathbf{R}$. For a sampled vector of rates $\hat{\mathbf{R}}$, the probability of state $s$ at the root is equal to the following:
+
+$$
+P(\text{root}=s|\hat{\mathbf{R}}) = \frac{\pi(s)\mathcal{L}(\text{root}=s)}{\sum_{r \in S} \pi(r)\mathcal{L}(\text{root}=r)}
+$$
+
+At each iteration of the inference algorithm, we sample a state at the root as follows:
+
+$$
+z(\text{root}) \sim \text{Categorical}(P(\text{root}|\hat{\mathbf{R}}))
+$$
+
+We discard the first half of samples and average the remaining draws of $z$, yielding a probability between 0 and 1 for each state at the root of the tree.
+
+\section{Validation}
+\label{validation}
+
+We employ a validation technique inspired by Leave-One-Out cross-validation (LOO-CV; see \citealt{vehtari2017practical} for a review) in order to see how well the phylogenetic model can reconstruct values observed at tips of the tree when they are held out during the inference process (in general, LOO-CV is used to facilitate direct comparison of goodness-of-fit between competing statistical models; the values we report here serve as a baseline measure against which to compare future work). 
+In particular, we are interested in seeing how accurately state values for observed languages in our sample that are treated as ancestral to other languages (e.g. Latin, Sanskrit, Ancient Greek) relative to non-ancestral languages (e.g. Spanish, Hindi, Modern Greek); high accuracy for held-out ancestral languages indicates that our model carries out ancestral state reconstruction with high accuracy for attested ancestral languages (implying that the model has the potential to generalize to unattested ancestral languages such as Proto-Indo-European). For each feature and each language in our data set, we sample a tree at random, set the likelihood of each state in the language under consideration to 1 (as recommended for missing data; \citealt[255]{Felsenstein2004}), then carry out the evolutionary rate inference described above. Subsequently, we use rates from the posterior distribution of $\mathbf{R}$ to reconstruct the state of the held-out language $t$ as follows. First, we sample a vector of rates $\hat{\mathbf{R}}$ from the posterior and use it to sample a state for the direct ancestor of $t$, which we denote as $n$:
+
+$$
+z(n) \sim \text{Categorical}(\mathcal{L}(n|\hat{\mathbf{R}}))
+$$
+
+We can use this sampled ancestral state to estimate the probability that $t$ is in state $r$ under a CTM process parameterized by $\hat{\mathbf{R}}$ and sample from this probability distribution:
+
+$$
+P(t=r) = P_{sr}(b(n,t);\mathbf{R});
+$$
+$$
+z \sim \text{Categorical}(P(t=r))
+$$
+
+We carry out this estimation procedure on a randomly sampled tree from our tree sample for each feature and language, and compute the percentage of held-out values generated on the basis of the posterior sample that match the attested value. Figure \ref{LOO} shows these accuracy scores for each language-feature pair, divided according to whether the language is ancestral or non-ancestral. 
+The overall median accuracy score, pooled across ancestral and non-ancestral languages, is $0.873$. 
+Accuracy scores are significantly higher for ancestral languages (median=$0.977$) than for non-ancestral languages (median=$0.830$) according to a Mann-Whitney U test ($W=7147700, p<2.2e^{-16}$), indicating that the use of ancestry constraints increases posterior predictive accuracy, and that our model can re-capture held-out ancestral values with considerable success. 
+Additionally, we fit a mixed-effects model with log accuracy as a response to whether or not a language is ancestral, with random intercepts by linguistic variable and language,\footnote{The function call in {\tt lme4} \citep{Bates2015} is the following: {\tt log(accuracy) $\sim$ ancestral + (1|variable) + (1|language)}} 
+finding via the likelihood ratio test that whether not a language is ancestral is a highly significant predictor of log accuracy ($\chi^2_{\text{LR}}(1) = 18.685, p < 0.0001$).
+
+Additionally, we investigate the degree to which held-out accuracy is dependent on artifacts of the data. For non-ancestral languages, we assess the correlation between the probability of with which our model accurately generates a held-out value and the probability with which this value occurs among non-held-out languages. 
+For ancestral languages, we measure the correlation between the probability of an accurate held-out value and the probability with which this value occurs among the held-out ancestral node's descendants. 
+We find that both correlations are significant (non-ancestral: Spearman's $\rho=0.221,p<0.001$, ancestral: $\rho=0.676,p<0.001$), indicating that LOO-CV accuracy is sensitive to patterns found in the data. At the same time, these correlations are weak to moderate, indicating that other factors --- possibly including the ability of our model to learn meaningful diachronic patterns --- influence held-out accuracy as well. 
+
+%{\tt give pooled values.}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=.6\linewidth]{Figures-IE-grammar/LOO_accuracy.pdf}
+    \caption{Held-out accuracy values for each language and feature, organized according to whether the feature is ancestral or not. Median values are indicated by dots.}
+    \label{LOO}
+\end{figure}
+
+\section{Choice of prior probability at root}
+\label{root.prior}
+
+We investigate the extent to which our reconstructions are sensitive to choices of {\sc root prior}, a key ingredient in the {\sc pruning algorithm} \citep{Felsenstein1981,Felsenstein2004}. 
+A standard practice in phylogenetics is to set the root prior to be equal to the stationary distribution of the variable of interest under the rates of the CTM process thought to characterize its evolution. For a binary character with a gain rate $\alpha$ and loss rate $\beta$, the stationary probability is equal to $\frac{\alpha}{\alpha + \beta}$.\footnote{An alternative parameterization for binary data is to draw a stationary probability $p \in [0,1]$ and a change rate $s$, from which gain and loss rates can be derived as $ps$ and $(1-p)s$, respectively.} 
+For non-binary data, the stationary distribution $\boldsymbol{\pi}$ is a vector of probabilities satisfying the equations $\boldsymbol{\pi}Q$ and $\sum_{i=1}^{|\boldsymbol{\pi}|} \pi_i = 1$, where $Q$ is the CTM rate matrix. 
+This practice presupposes that the character in question has been evolving for a `very long time according the particular model of [character evolution] we are using' (\citealt[255]{Felsenstein2004}; cf.\ \citealt{Cathcart2018modeling}). 
+
+Though a sensible and established choice, this prior has the potential to influence the results of a phylogenetic reconstruction, particularly if the stationary probability is highly skewed toward a particular character value. 
+To explore this issue, we carry out rate inference and reconstruction for the features in our data set using two alternative root priors, a {\sc uniform} prior which places equal prior probability of each value, and a {\sc dirichlet} prior which infers the distribution of values at the root as a free parameter to be inferred. For a variable with $D$ values, we set the prior probability of each value to $\frac{1}{D}$ under the uniform regime; under the Dirichlet regime, we place a $D$-length symmetric Dirichlet prior with a concentration parameter of $1$ over the feature distribution at the root.
+
+The different prior regimes reconstruct the same features with highest probability for the majority of variables, but differ according to a fraction of variables. These are presented below, along with the probabilities with which they are reconstructed, for stationary probability (SP), uniform prior (UP) and Dirichlet prior (DP); cells for which an alternative regime agrees with the SP regime are blank.
+
+\begin{center}
+{\small
+\begin{tabular}{p{.3\linewidth}p{.3\linewidth}p{.3\linewidth}}
+\toprule
+SP & UP & DP\\
+\midrule
+Clitic finite V: Category irrelevant (0.442) & Clitic finite V: V2 (0.270) & Clitic finite V: V2 (0.269)\\
+\hline
+Clitic Infinitive V: Category irrelevant (0.433) & Clitic Infinitive V: V2 (0.254) & Clitic Infinitive V: V2 (0.249)\\
+\hline
+Clitic Participle V: Category irrelevant (0.418) & Clitic Participle V: V2 (0.236) & Clitic Participle V: V2 (0.240)\\
+\hline
+No case on article (0.732) & Case on article (0.621) & Case on article (0.618)\\
+\hline
+No difference O and Dative (pronouns) (0.570) & Difference, O and Dative (pronouns) (0.519) & Difference, O and Dative (pronouns) (0.529)\\
+\hline
+No Future by participle (0.724) & Future by participle (0.767) & Future by participle (0.762)\\
+\hline
+Not more than 7 cases (0.583) & More than 7 cases (0.948) & More than 7 cases (0.950)\\
+\hline
+NRel: Noun - Relative (0.627) & NRel: Relative - Noun (0.315) & NRel: Relative - Noun (0.316)\\
+\hline
+Possessor - Noun (0.585) & Possessor - Noun and Noun - Possessor (0.374) & Possessor - Noun and Noun - Possessor (0.377)\\
+\hline
+Reflexive with Agent (0.959) & Reflexive not with Agent (0.505) & Reflexive not with Agent (0.505)\\
+\hline
+Simple past: Full A Agreement (0.386) & \centering --- & Simple past: Syncretic A Agreement (0.206)\\
+\bottomrule
+\end{tabular}
+}
+\end{center}
+
+It is worth noting that with a handful of exceptions, the features reconstructed differently by the alternative models are reconstructed with high uncertainty, and as a whole, the differing features are not of key importance to the canonical model of reconstruction supported by the main results presented in this paper (see \S3, {\sc Results: reconstruction}).
+
+
+\section{Entry/Gain and Exit/Loss Rates}
+
+For each multistate character, we compute the mean rate at which each state is gained or lost in the following manner. We compute the gain rate for state $i$, or rate at which state $i$ is entered, as follows, where $R(j \rightarrow i)$ denotes the rate from state \emph{j} to state \emph{i}, and $p(s)$ denotes the equilibrium or stationary probability of state $s$:
+$$
+\frac{\sum_{j \neq i} p(j) R(j \rightarrow i)}{\sum_{j \neq i} p(j)}
+$$
+The loss rate for state $i$, or rate at which state $i$ is exited, is computed as follows:
+$$
+\sum_{j \neq i} R(i \rightarrow j)
+$$
+
+We thank Gerhard J\"ager for deriving the equation for entry rates for us, and for providing the following proof, which we reproduce with his permission:
+
+\begin{proof}
+Let us first consider the simpler case where we have a stochastic transition matrix $P$. We are interested in the probability of switching from state $a$ or $b$ to state $c$ or $d$:
+$$
+P(\{c,d\}|\{a,b\})
+$$
+According to the definition of conditional probability, this is:
+$$
+\frac{P(\{a,b\} \rightarrow \{c,d\})}{P(\{a,b\})}
+$$
+This is only defined if we know $P(\{a,b\})$, so we assume that the process is in equilibrium and that these are the equilibrium probabilities. Since $a$ and $b$ are disjoint, we have $P(\{a,b\}) = P_E(a) + P_E(b)$ ($P_E$ being the equilibrium probability.)
+
+There are four different possible transitions in the numerator, which are mutually disjoint, so we have 
+
+$$
+\frac{P(a \rightarrow b) + P(a \rightarrow d) + P(b \rightarrow c) + P(b \rightarrow d)}{P_E(a)+P_E(b)}
+$$
+
+Again, $P(a \rightarrow c)$ is only defined if we know the probability of the process starting in $a$. Under the equilibrium assumption, we have $P(a \rightarrow c) = P_E(a)P(c|a)$, and likewise for the other transitions.
+
+Putting this together, we have
+
+\begin{align*}
+P(\{c,d\}|\{a,b\}) & = \frac{P_E(a)P(c|a) + P_E(a)P(d|a) + P_E(b)P(c|b) + P_E(b)P(d|b)}{P_E(a) + P_E(b)}\\
+ & = \frac{P_E(a)(P(c|a) + P(d|a)) + P_E(b)(P(c|b) + P(d|b))}{P_E(a) + P_E(b)}\\
+\end{align*}
+
+Now let us assume that we have a continuous-time Markov process, where $P$ is time dependent. 
+The {\em rate} $r_{\{a,b\} \rightarrow \{c,d\}}$ is the limit of the expected number of transitions from 
+$\{a,b\}$ 
+into 
+$\{c,d\}$ 
+per 
+time period for infinitesimal time periods, provided the system starts in $\{a,b\}$:
+
+\begin{align*}
+    r_{\{a,b\} \rightarrow \{c,d\}} & = \frac{d}{dt} P_t(\{c,d\}|\{a,b\})\Bigr|_{t=0}\\
+     & = \frac{d}{dt}\frac{P_E(a)(P(c|a) + P(d|a)) + P_E(b)(P(c|b) + P(d|b))}{P_E(a) + P_E(b)}\Bigr|_{t=0}
+\end{align*}
+$P_E$ does not depend on $t$, and $\frac{d}{dt}P_t(c|a)\Bigr|_{t=0} = r_{ac}$ (and likewise for other transitions); therefore we get
+$$
+r_{\{a,b\} \rightarrow \{c,d\}} = \frac{P_E(a)(r_{ac} + r_{ad}) + P_E(b)(r_{bc} + r_{bd})}{P_E(a) + P_E(b)}
+$$
+
+\end{proof}
+
+\bibliographystyle{chicagoa}
+\bibliography{Reconstructing_evolution}
+
+
+\end{appendices}
+
+\pagebreak
+
+\pagestyle{empty}
+
+
+\section*{Supplementary materials: data and results}
+
+\subsection*{S1}
+Languages, including latitude and longitude, used in the current study.
+
+\input{languages}
+
+\pagebreak
+
+\subsection*{S2a}
+
+List of typological features (from DiACL database https://diacl.ht.lu.se) used in the current study.
+
+Grid = topmost organizational unit in database, corresponding to linguistic domain; Feature = second organizational unit in database; Feature description = Description of Feature in database; Variant = lowest organizational unit in database; Variant description = description of variant in database; ID = unique database ID of Variant.
+
+\input{features}
+
+\pagebreak
+
+\subsection*{S2b}
+
+Matrix of coding of schools with sources of data. ID = Variant ID of database (S2a).
+
+\input{schools_binary}
+
+\pagebreak
+
+\subsection*{S3a}
+
+Categorical variables and values recoded from the original binary DiACL data set. The column {\sc Label} provides each re-coded variable followed by the possible values that it can express, along with the corresponding combination of values of feature variants from the original DiACL dataset. The column ID gives a unique feature ID (A = alignment, NM = nominal morphology, T = tense, VM = verbal morphology, WO = word order).
+
+%Categorical features and reconstructed probabilities of traits at the root of the tree. For each number or categorical feature in the column ``CFID'' (Categorical Feature ID), the top-most level of the hierarchically organized features in the original dataset (Grids in the dataset) are given by their name (e.g., Alignment), followed by a vertical line and the name of a Feature (e.g.. Noun: Present Progressive). This Feature may or may not correspond to a categorical feature; for this matter the combination of Grid|Feature may recur in several multistate characters. Each categorical feature has a unique ID number (1-64) and each trait has a unique ID number (A1-WO50). Each categorical feature is described as Grid|Feature|Variant (dataset terms), which are given next to the categorical feature ID. The combination of values (1/0), which represent the unique trait, are given in the row below each cell with a value of a categorical feature. The ID in the row gives the unique trait ID and the unique label describes the trait.
+
+%CFID = ID of multistate character block (for reference in text). Label = descriptive property label; ID = unique trait ID (A = alignment, NM = nominal morphology, T = tense, VM = verbal morphology, WO = word order); Variant (1-4) = Variant of multistate character from DiACL, given as Grid|Feature|Variant (see S2a); Result = reconstructed probability of presence for each trait at the protolanguage state.
+
+\input{recoded_features}
+
+\pagebreak
+
+\subsection*{S3b}
+
+Coded variants of S2b (different schools) transformed into the traits of S3a, organized by their categorical features. ID = feature ID of S3a.
+
+\input{schools_nonbinary}
+
+\pagebreak
+
+\subsection*{S4}
+Reconstruction probabilities for values of each variable.
+
+\input{reconstruction_prob}
+
+\pagebreak
+
+\subsection*{S5}
+Transition rates for features, organized by category (S3a). %Mean rate = transition rate between features; Loss trait = trait which transition leads from; Loss ID = trait ID of loss character; Gain trait = trait which transition leads to; Gain ID = character ID of gain trait. 
+
+\input{rates}
+
+\pagebreak
+
+\subsection*{S6}
+Entry and exit (gain and loss) rates of features. %For a description of how these are computed, see Appendix (8.5). 
+%Trait = trait label; ID = trait ID; 
+Type = A (alignment), NM (nominal morphology), T (tense), VM (verbal morphology), WO (word order).
+
+\input{entry_exit}
+
+\pagebreak
+
+\subsection*{S7}
+
+List of pairwise organized features, which are identified to be in a relation by a marking hierarchy. Feature 1 = Trait higher in hierarchy (more frequent, unmarked); 
+%ID 1 = trait ID of trait 1; 
+Feature 2 = trait lower in hierarchy (less frequent, marked); 
+%ID 2 = Trait ID of trait 2; 
+Type = type of property distinguishing hierarchical relation between traits.
+
+\input{hierarchy}
+
+\break
+
+\subsection*{S8}
+
+Reconstructed probability distributions of variables in our data set over all nodes of the phylogeny, visualized on a maximum clade credibility (MCC) tree of Indo-European. Labels lacking color indicate languages with missing data in our sample.
+
+%\begin{figure}
+%\includegraphics{supp-graphics/Word.order.WH.element.WH.initial.pdf}
+%\end{figure}
+
+\input{pie_trees}
+
+\subsection*{S9}
+
+Tree sample of Indo-European languages used for this paper's experiments.
+
+\includegraphics[width=.6\linewidth]{tree-sample.pdf}
+
+\end{document}
