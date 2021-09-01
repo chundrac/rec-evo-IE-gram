@@ -25,3 +25,5 @@ Rscript summarize_reconstructions_for_comparison.R
 ```
 
 All remaining scripts can be run after these steps.
+
+The supplementary material can be found [here](https://raw.githubusercontent.com/chundrac/rec-evo-IE-gram/main/reconstructing_IE_grammar_supplementary.pdf)
